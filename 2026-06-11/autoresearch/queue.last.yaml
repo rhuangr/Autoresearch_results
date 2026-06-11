@@ -1,0 +1,12 @@
+batch:
+  - parent: 0b91efc9
+    hypothesis: "With gate=0.20 the c_value peak is near 0.7 (0.5 and 1.0 both lower); 0.8 maps the right shoulder toward baseline"
+    prediction: "primary at or just below the 0.7 best; confirms peak location"
+    changes:
+      classifier.c_value: 0.8
+
+  - parent: 0b91efc9
+    hypothesis: "Reducing ranker leaves to 23 hurt sharply, so more capacity (47 leaves) may help the allocator on the Stage 1 combo"
+    prediction: "primary flat-to-up vs the best; stability_std may rise"
+    changes:
+      ranker.num_leaves: 47

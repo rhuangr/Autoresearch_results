@@ -1,0 +1,4812 @@
+{
+  "artifact_schema_version": 5,
+  "data": {
+    "filtering_attrition": {
+      "complete_label_rows": 980783,
+      "panel_rows": 1301184,
+      "positive_label_rate": 0.20630047625213732,
+      "positive_label_rows": 202336,
+      "tradable_rows": 980783
+    },
+    "label_outcome_counts": {
+      "filtered_entry": 300029,
+      "invalid_entry": 179,
+      "stop_loss_exit": 574811,
+      "take_profit_exit": 202336,
+      "timeout_exit": 203636,
+      "unlabeled_exit": 20193
+    }
+  },
+  "evaluation": {
+    "daily_gate_quality": {
+      "1": [
+        {
+          "base_hit_rate": 0.09464816650148662,
+          "base_mean_return": -0.017593103006686907,
+          "candidate_rows": 2018,
+          "date": "2024-01-02",
+          "survivor_hit_rate": 0.5,
+          "survivor_mean_return": 0.12536976474685468,
+          "survivor_rows": 2
+        },
+        {
+          "base_hit_rate": 0.16333666333666333,
+          "base_mean_return": -0.0056618837840235175,
+          "candidate_rows": 2002,
+          "date": "2024-01-03",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.03830258719640419,
+          "survivor_rows": 3
+        },
+        {
+          "base_hit_rate": 0.22554890219560877,
+          "base_mean_return": 0.00229575906917053,
+          "candidate_rows": 2004,
+          "date": "2024-01-04",
+          "survivor_hit_rate": 0.3333333333333333,
+          "survivor_mean_return": 0.006054749535501706,
+          "survivor_rows": 3
+        },
+        {
+          "base_hit_rate": 0.22988505747126436,
+          "base_mean_return": -0.00044253154154992114,
+          "candidate_rows": 2001,
+          "date": "2024-01-05",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.015706940585677454,
+          "survivor_rows": 1
+        },
+        {
+          "base_hit_rate": 0.2147117296222664,
+          "base_mean_return": -0.005476965919351409,
+          "candidate_rows": 2012,
+          "date": "2024-01-08",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.1963220675944334,
+          "base_mean_return": -0.009393316965359952,
+          "candidate_rows": 2012,
+          "date": "2024-01-09",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.06584878161777463,
+          "survivor_rows": 1
+        },
+        {
+          "base_hit_rate": 0.1690773067331671,
+          "base_mean_return": -0.011107164670660214,
+          "candidate_rows": 2005,
+          "date": "2024-01-10",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.0442361780541588,
+          "survivor_rows": 1
+        },
+        {
+          "base_hit_rate": 0.0985985985985986,
+          "base_mean_return": -0.018073723419815047,
+          "candidate_rows": 1998,
+          "date": "2024-01-11",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.2674360260913196,
+          "base_mean_return": 0.0044317734434125644,
+          "candidate_rows": 1993,
+          "date": "2024-01-12",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.5118746841839312,
+          "base_mean_return": 0.03287057437862905,
+          "candidate_rows": 1979,
+          "date": "2024-01-16",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.40515933232169954,
+          "base_mean_return": 0.015805251498918753,
+          "candidate_rows": 1977,
+          "date": "2024-01-17",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.32151898734177214,
+          "base_mean_return": 0.017557501127589543,
+          "candidate_rows": 1975,
+          "date": "2024-01-18",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.2210419828022256,
+          "base_mean_return": 0.0054743825044441825,
+          "candidate_rows": 1977,
+          "date": "2024-01-19",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.10938283993978926,
+          "base_mean_return": -0.015297630288216386,
+          "candidate_rows": 1993,
+          "date": "2024-01-22",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.1041041041041041,
+          "base_mean_return": -0.014237889579423523,
+          "candidate_rows": 1998,
+          "date": "2024-01-23",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.1624874623871615,
+          "base_mean_return": -0.0056633292094657225,
+          "candidate_rows": 1994,
+          "date": "2024-01-24",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.15303562468640242,
+          "base_mean_return": -0.005242855924414527,
+          "candidate_rows": 1993,
+          "date": "2024-01-25",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.19437468608739328,
+          "base_mean_return": -0.00028390079780496084,
+          "candidate_rows": 1991,
+          "date": "2024-01-26",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.13973147687717555,
+          "base_mean_return": -0.011987950182896131,
+          "candidate_rows": 2011,
+          "date": "2024-01-29",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.019518025535048777,
+          "survivor_rows": 1
+        },
+        {
+          "base_hit_rate": 0.1357035553329995,
+          "base_mean_return": -0.009519232568292386,
+          "candidate_rows": 1997,
+          "date": "2024-01-30",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.25529767911200807,
+          "base_mean_return": 0.0065127168092842585,
+          "candidate_rows": 1982,
+          "date": "2024-01-31",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.26556224899598396,
+          "base_mean_return": 0.011833725954075825,
+          "candidate_rows": 1992,
+          "date": "2024-02-01",
+          "survivor_hit_rate": 0.5,
+          "survivor_mean_return": -0.008700290935195865,
+          "survivor_rows": 2
+        },
+        {
+          "base_hit_rate": 0.31079717457114026,
+          "base_mean_return": 0.017064201051732855,
+          "candidate_rows": 1982,
+          "date": "2024-02-02",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.36644703497212366,
+          "base_mean_return": 0.022488942551767813,
+          "candidate_rows": 1973,
+          "date": "2024-02-05",
+          "survivor_hit_rate": 1.0,
+          "survivor_mean_return": 0.08180193391719359,
+          "survivor_rows": 2
+        },
+        {
+          "base_hit_rate": 0.2687846696923853,
+          "base_mean_return": 0.008530217125866846,
+          "candidate_rows": 1983,
+          "date": "2024-02-06",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.05850048098521693,
+          "survivor_rows": 2
+        },
+        {
+          "base_hit_rate": 0.31069437404967054,
+          "base_mean_return": 0.016794586347986654,
+          "candidate_rows": 1973,
+          "date": "2024-02-07",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.03950789783366565,
+          "survivor_rows": 2
+        },
+        {
+          "base_hit_rate": 0.2132056451612903,
+          "base_mean_return": 0.0011399217978055479,
+          "candidate_rows": 1984,
+          "date": "2024-02-08",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.06146608063468965,
+          "survivor_rows": 3
+        },
+        {
+          "base_hit_rate": 0.1345088161209068,
+          "base_mean_return": -0.01041254455645791,
+          "candidate_rows": 1985,
+          "date": "2024-02-09",
+          "survivor_hit_rate": 0.3333333333333333,
+          "survivor_mean_return": 0.09671305675545898,
+          "survivor_rows": 3
+        },
+        {
+          "base_hit_rate": 0.24899799599198397,
+          "base_mean_return": 0.010253778463692909,
+          "candidate_rows": 1996,
+          "date": "2024-02-12",
+          "survivor_hit_rate": 0.3333333333333333,
+          "survivor_mean_return": 0.13531788688461233,
+          "survivor_rows": 3
+        },
+        {
+          "base_hit_rate": 0.26307770441848655,
+          "base_mean_return": 0.01028441601934757,
+          "candidate_rows": 1969,
+          "date": "2024-02-13",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": 0.027777261132116093,
+          "survivor_rows": 2
+        },
+        {
+          "base_hit_rate": 0.20251889168765744,
+          "base_mean_return": -0.0008269364816629614,
+          "candidate_rows": 1985,
+          "date": "2024-02-14",
+          "survivor_hit_rate": 0.3333333333333333,
+          "survivor_mean_return": 0.027150816891993734,
+          "survivor_rows": 12
+        },
+        {
+          "base_hit_rate": 0.1445,
+          "base_mean_return": -0.008446891899189693,
+          "candidate_rows": 2000,
+          "date": "2024-02-15",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.02916940652931373,
+          "survivor_rows": 9
+        },
+        {
+          "base_hit_rate": 0.2374749498997996,
+          "base_mean_return": 0.005286366828920489,
+          "candidate_rows": 1996,
+          "date": "2024-02-16",
+          "survivor_hit_rate": 0.14285714285714285,
+          "survivor_mean_return": -0.01664942131081077,
+          "survivor_rows": 14
+        },
+        {
+          "base_hit_rate": 0.29527162977867205,
+          "base_mean_return": 0.016451373096191078,
+          "candidate_rows": 1988,
+          "date": "2024-02-20",
+          "survivor_hit_rate": 0.625,
+          "survivor_mean_return": 0.10737867978101284,
+          "survivor_rows": 8
+        },
+        {
+          "base_hit_rate": 0.26693629929221435,
+          "base_mean_return": 0.016374372001848846,
+          "candidate_rows": 1978,
+          "date": "2024-02-21",
+          "survivor_hit_rate": 1.0,
+          "survivor_mean_return": 0.06485609646990587,
+          "survivor_rows": 1
+        },
+        {
+          "base_hit_rate": 0.2591093117408907,
+          "base_mean_return": 0.018740421685667065,
+          "candidate_rows": 1976,
+          "date": "2024-02-22",
+          "survivor_hit_rate": 0.4,
+          "survivor_mean_return": 0.0978824509172532,
+          "survivor_rows": 5
+        },
+        {
+          "base_hit_rate": 0.2680829539706626,
+          "base_mean_return": 0.01772039261351697,
+          "candidate_rows": 1977,
+          "date": "2024-02-23",
+          "survivor_hit_rate": 0.6666666666666666,
+          "survivor_mean_return": 0.07804225420483513,
+          "survivor_rows": 3
+        },
+        {
+          "base_hit_rate": 0.23931623931623933,
+          "base_mean_return": 0.006324286385497107,
+          "candidate_rows": 1989,
+          "date": "2024-02-26",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": 0.03350241781943042,
+          "survivor_rows": 2
+        },
+        {
+          "base_hit_rate": 0.26028084252758277,
+          "base_mean_return": 0.01028149458026647,
+          "candidate_rows": 1994,
+          "date": "2024-02-27",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.18869828456104945,
+          "base_mean_return": -0.0011391767680594723,
+          "candidate_rows": 1982,
+          "date": "2024-02-28",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.20432813286361348,
+          "base_mean_return": -0.0025558475436989773,
+          "candidate_rows": 1987,
+          "date": "2024-02-29",
+          "survivor_hit_rate": 1.0,
+          "survivor_mean_return": 0.3482949986092915,
+          "survivor_rows": 2
+        },
+        {
+          "base_hit_rate": 0.14585414585414586,
+          "base_mean_return": -0.011669250267065044,
+          "candidate_rows": 2002,
+          "date": "2024-03-01",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.06159157373028787,
+          "survivor_rows": 4
+        },
+        {
+          "base_hit_rate": 0.17293233082706766,
+          "base_mean_return": -0.004644783911160818,
+          "candidate_rows": 1995,
+          "date": "2024-03-04",
+          "survivor_hit_rate": 0.16666666666666666,
+          "survivor_mean_return": 0.022007110639156224,
+          "survivor_rows": 6
+        },
+        {
+          "base_hit_rate": 0.1424272818455366,
+          "base_mean_return": -0.006496218632744244,
+          "candidate_rows": 1994,
+          "date": "2024-03-05",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.05502830108027984,
+          "survivor_rows": 2
+        },
+        {
+          "base_hit_rate": 0.13527054108216433,
+          "base_mean_return": -0.0059696471413122785,
+          "candidate_rows": 1996,
+          "date": "2024-03-06",
+          "survivor_hit_rate": 0.3333333333333333,
+          "survivor_mean_return": -0.004011688037628525,
+          "survivor_rows": 3
+        },
+        {
+          "base_hit_rate": 0.12106053026513257,
+          "base_mean_return": -0.011914642852339445,
+          "candidate_rows": 1999,
+          "date": "2024-03-07",
+          "survivor_hit_rate": 0.3333333333333333,
+          "survivor_mean_return": 0.014493289649252561,
+          "survivor_rows": 3
+        },
+        {
+          "base_hit_rate": 0.16908454227113556,
+          "base_mean_return": -0.006289833753038758,
+          "candidate_rows": 1999,
+          "date": "2024-03-08",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.14923025105740856,
+          "survivor_rows": 2
+        },
+        {
+          "base_hit_rate": 0.18875502008032127,
+          "base_mean_return": -0.0038935086149312135,
+          "candidate_rows": 1992,
+          "date": "2024-03-11",
+          "survivor_hit_rate": 0.25,
+          "survivor_mean_return": -0.07287384850342882,
+          "survivor_rows": 4
+        },
+        {
+          "base_hit_rate": 0.16106372303060712,
+          "base_mean_return": -0.00593049335640975,
+          "candidate_rows": 1993,
+          "date": "2024-03-12",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.13480786424787994,
+          "survivor_rows": 2
+        },
+        {
+          "base_hit_rate": 0.1497995991983968,
+          "base_mean_return": -0.0036766569489091435,
+          "candidate_rows": 1996,
+          "date": "2024-03-13",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.0742042271631041,
+          "survivor_rows": 4
+        },
+        {
+          "base_hit_rate": 0.43443037974683546,
+          "base_mean_return": 0.03408128998131592,
+          "candidate_rows": 1975,
+          "date": "2024-03-14",
+          "survivor_hit_rate": 0.5,
+          "survivor_mean_return": 0.04673457774992521,
+          "survivor_rows": 4
+        },
+        {
+          "base_hit_rate": 0.33148614609571786,
+          "base_mean_return": 0.02013478777157064,
+          "candidate_rows": 1985,
+          "date": "2024-03-15",
+          "survivor_hit_rate": 0.2857142857142857,
+          "survivor_mean_return": 0.034434248464745965,
+          "survivor_rows": 7
+        },
+        {
+          "base_hit_rate": 0.4201213346814965,
+          "base_mean_return": 0.02799457814623836,
+          "candidate_rows": 1978,
+          "date": "2024-03-18",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.12399025540970149,
+          "survivor_rows": 2
+        },
+        {
+          "base_hit_rate": 0.35480624056366383,
+          "base_mean_return": 0.020274680832426645,
+          "candidate_rows": 1987,
+          "date": "2024-03-19",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.034972432817113264,
+          "survivor_rows": 1
+        },
+        {
+          "base_hit_rate": 0.1555,
+          "base_mean_return": -0.008375927280624477,
+          "candidate_rows": 2000,
+          "date": "2024-03-20",
+          "survivor_hit_rate": 0.5,
+          "survivor_mean_return": 0.16998215147365536,
+          "survivor_rows": 2
+        },
+        {
+          "base_hit_rate": 0.11238761238761238,
+          "base_mean_return": -0.012148997326271099,
+          "candidate_rows": 2002,
+          "date": "2024-03-21",
+          "survivor_hit_rate": 1.0,
+          "survivor_mean_return": 0.07574551517323136,
+          "survivor_rows": 1
+        },
+        {
+          "base_hit_rate": 0.17655935613682092,
+          "base_mean_return": -0.00031257760626946375,
+          "candidate_rows": 1988,
+          "date": "2024-03-22",
+          "survivor_hit_rate": 1.0,
+          "survivor_mean_return": 0.33450388616467785,
+          "survivor_rows": 1
+        },
+        {
+          "base_hit_rate": 0.15543259557344064,
+          "base_mean_return": -0.0035553640834634953,
+          "candidate_rows": 1988,
+          "date": "2024-03-25",
+          "survivor_hit_rate": 0.5,
+          "survivor_mean_return": 0.1503124661301516,
+          "survivor_rows": 2
+        },
+        {
+          "base_hit_rate": 0.15853044791142426,
+          "base_mean_return": -0.0089439269833386,
+          "candidate_rows": 1987,
+          "date": "2024-03-26",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.08158158158158157,
+          "base_mean_return": -0.018684151852151352,
+          "candidate_rows": 1998,
+          "date": "2024-03-27",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.09166938774025335,
+          "survivor_rows": 2
+        }
+      ],
+      "2": [
+        {
+          "base_hit_rate": 0.056943056943056944,
+          "base_mean_return": -0.023828667116728833,
+          "candidate_rows": 2002,
+          "date": "2024-03-28",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -6.585492300537066e-05,
+          "survivor_rows": 1
+        },
+        {
+          "base_hit_rate": 0.09059059059059059,
+          "base_mean_return": -0.019312765298723986,
+          "candidate_rows": 1998,
+          "date": "2024-04-01",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.020246615550950087,
+          "survivor_rows": 1
+        },
+        {
+          "base_hit_rate": 0.10166079516859587,
+          "base_mean_return": -0.01780630710661463,
+          "candidate_rows": 1987,
+          "date": "2024-04-02",
+          "survivor_hit_rate": 0.2857142857142857,
+          "survivor_mean_return": 0.010098784203546787,
+          "survivor_rows": 7
+        },
+        {
+          "base_hit_rate": 0.034170854271356785,
+          "base_mean_return": -0.026173209737708366,
+          "candidate_rows": 1990,
+          "date": "2024-04-03",
+          "survivor_hit_rate": 0.1111111111111111,
+          "survivor_mean_return": -0.025655863366906135,
+          "survivor_rows": 9
+        },
+        {
+          "base_hit_rate": 0.0751008064516129,
+          "base_mean_return": -0.02092578147074385,
+          "candidate_rows": 1984,
+          "date": "2024-04-04",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.023890883152330317,
+          "survivor_rows": 4
+        },
+        {
+          "base_hit_rate": 0.036308623298033284,
+          "base_mean_return": -0.02617633479629869,
+          "candidate_rows": 1983,
+          "date": "2024-04-05",
+          "survivor_hit_rate": 0.09090909090909091,
+          "survivor_mean_return": -0.01888039121543654,
+          "survivor_rows": 11
+        },
+        {
+          "base_hit_rate": 0.019627579265223957,
+          "base_mean_return": -0.028136945567420017,
+          "candidate_rows": 1987,
+          "date": "2024-04-08",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.018410812394972498,
+          "survivor_rows": 2
+        },
+        {
+          "base_hit_rate": 0.04776269482151835,
+          "base_mean_return": -0.02301060667362947,
+          "candidate_rows": 1989,
+          "date": "2024-04-09",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.03914590747330961,
+          "base_mean_return": -0.025017939603144974,
+          "candidate_rows": 1967,
+          "date": "2024-04-10",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.020105229966756344,
+          "survivor_rows": 1
+        },
+        {
+          "base_hit_rate": 0.07856056766345666,
+          "base_mean_return": -0.021574444364390676,
+          "candidate_rows": 1973,
+          "date": "2024-04-11",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.062276671771311895,
+          "base_mean_return": -0.021387033588372007,
+          "candidate_rows": 1959,
+          "date": "2024-04-12",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.010426745349992439,
+          "survivor_rows": 2
+        },
+        {
+          "base_hit_rate": 0.25539568345323743,
+          "base_mean_return": 0.008031232732796928,
+          "candidate_rows": 1946,
+          "date": "2024-04-15",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.006630782425863457,
+          "survivor_rows": 1
+        },
+        {
+          "base_hit_rate": 0.20133882595262617,
+          "base_mean_return": -0.004585201636203398,
+          "candidate_rows": 1942,
+          "date": "2024-04-16",
+          "survivor_hit_rate": 0.5,
+          "survivor_mean_return": 0.0034275356324446338,
+          "survivor_rows": 2
+        },
+        {
+          "base_hit_rate": 0.31000518403317784,
+          "base_mean_return": 0.011718000921339327,
+          "candidate_rows": 1929,
+          "date": "2024-04-17",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.3797927461139896,
+          "base_mean_return": 0.024020262178274306,
+          "candidate_rows": 1930,
+          "date": "2024-04-18",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.30515463917525776,
+          "base_mean_return": 0.017344449947236693,
+          "candidate_rows": 1940,
+          "date": "2024-04-19",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.2919030428055699,
+          "base_mean_return": 0.01609704654142891,
+          "candidate_rows": 1939,
+          "date": "2024-04-22",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.20051413881748073,
+          "base_mean_return": -0.0018401210126492533,
+          "candidate_rows": 1945,
+          "date": "2024-04-23",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.29299691040164777,
+          "base_mean_return": 0.014639969329485957,
+          "candidate_rows": 1942,
+          "date": "2024-04-24",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.2875580795043882,
+          "base_mean_return": 0.015319283561302105,
+          "candidate_rows": 1937,
+          "date": "2024-04-25",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.23104693140794225,
+          "base_mean_return": 0.003586405079048312,
+          "candidate_rows": 1939,
+          "date": "2024-04-26",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.2922680412371134,
+          "base_mean_return": 0.011359043549589998,
+          "candidate_rows": 1940,
+          "date": "2024-04-29",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.4628099173553719,
+          "base_mean_return": 0.03154480333068688,
+          "candidate_rows": 1936,
+          "date": "2024-04-30",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.02981183711613178,
+          "survivor_rows": 1
+        },
+        {
+          "base_hit_rate": 0.35149023638232274,
+          "base_mean_return": 0.024612431131894538,
+          "candidate_rows": 1946,
+          "date": "2024-05-01",
+          "survivor_hit_rate": 0.5,
+          "survivor_mean_return": -0.020341643755505845,
+          "survivor_rows": 2
+        },
+        {
+          "base_hit_rate": 0.22608695652173913,
+          "base_mean_return": 0.0071112844300205685,
+          "candidate_rows": 1955,
+          "date": "2024-05-02",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.0028758684407655943,
+          "survivor_rows": 1
+        },
+        {
+          "base_hit_rate": 0.23178807947019867,
+          "base_mean_return": 0.009467908459822084,
+          "candidate_rows": 1963,
+          "date": "2024-05-03",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.034771474441326854,
+          "survivor_rows": 3
+        },
+        {
+          "base_hit_rate": 0.18689690198070086,
+          "base_mean_return": 0.0033566054935619573,
+          "candidate_rows": 1969,
+          "date": "2024-05-06",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.07796632609868964,
+          "survivor_rows": 2
+        },
+        {
+          "base_hit_rate": 0.24949290060851928,
+          "base_mean_return": 0.0165054831296405,
+          "candidate_rows": 1972,
+          "date": "2024-05-07",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.22533062054933875,
+          "base_mean_return": 0.011345865860247568,
+          "candidate_rows": 1966,
+          "date": "2024-05-08",
+          "survivor_hit_rate": 0.5,
+          "survivor_mean_return": 0.0756927839259467,
+          "survivor_rows": 2
+        },
+        {
+          "base_hit_rate": 0.13737373737373737,
+          "base_mean_return": -0.006838911305545954,
+          "candidate_rows": 1980,
+          "date": "2024-05-09",
+          "survivor_hit_rate": 0.2857142857142857,
+          "survivor_mean_return": 0.00220534107048961,
+          "survivor_rows": 7
+        },
+        {
+          "base_hit_rate": 0.1413373860182371,
+          "base_mean_return": -0.0012185373716267292,
+          "candidate_rows": 1974,
+          "date": "2024-05-10",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.01817485283155784,
+          "survivor_rows": 1
+        },
+        {
+          "base_hit_rate": 0.13679959616355375,
+          "base_mean_return": -0.004015753677065387,
+          "candidate_rows": 1981,
+          "date": "2024-05-13",
+          "survivor_hit_rate": 0.3333333333333333,
+          "survivor_mean_return": 0.014317938095920154,
+          "survivor_rows": 3
+        },
+        {
+          "base_hit_rate": 0.08408862034239678,
+          "base_mean_return": -0.016571145480549495,
+          "candidate_rows": 1986,
+          "date": "2024-05-14",
+          "survivor_hit_rate": 0.09090909090909091,
+          "survivor_mean_return": -0.026473781318285684,
+          "survivor_rows": 11
+        },
+        {
+          "base_hit_rate": 0.07319535588086824,
+          "base_mean_return": -0.01616861419329484,
+          "candidate_rows": 1981,
+          "date": "2024-05-15",
+          "survivor_hit_rate": 0.10526315789473684,
+          "survivor_mean_return": -0.016431546063807565,
+          "survivor_rows": 19
+        },
+        {
+          "base_hit_rate": 0.07269056032306916,
+          "base_mean_return": -0.01570338618652182,
+          "candidate_rows": 1981,
+          "date": "2024-05-16",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.028753948991789253,
+          "survivor_rows": 6
+        },
+        {
+          "base_hit_rate": 0.08463476070528968,
+          "base_mean_return": -0.015090865501888288,
+          "candidate_rows": 1985,
+          "date": "2024-05-17",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.04256338153420153,
+          "survivor_rows": 6
+        },
+        {
+          "base_hit_rate": 0.07941325240263025,
+          "base_mean_return": -0.017250258129134395,
+          "candidate_rows": 1977,
+          "date": "2024-05-20",
+          "survivor_hit_rate": 0.125,
+          "survivor_mean_return": -0.005934388888219469,
+          "survivor_rows": 8
+        },
+        {
+          "base_hit_rate": 0.07801418439716312,
+          "base_mean_return": -0.015195143671236718,
+          "candidate_rows": 1974,
+          "date": "2024-05-21",
+          "survivor_hit_rate": 0.2727272727272727,
+          "survivor_mean_return": -0.0006810202518341917,
+          "survivor_rows": 11
+        },
+        {
+          "base_hit_rate": 0.06632911392405064,
+          "base_mean_return": -0.017130142398730182,
+          "candidate_rows": 1975,
+          "date": "2024-05-22",
+          "survivor_hit_rate": 0.1,
+          "survivor_mean_return": -0.011378431358444468,
+          "survivor_rows": 20
+        },
+        {
+          "base_hit_rate": 0.11105450840550178,
+          "base_mean_return": -0.009491522048092558,
+          "candidate_rows": 1963,
+          "date": "2024-05-23",
+          "survivor_hit_rate": 0.18181818181818182,
+          "survivor_mean_return": -0.0046067766092035105,
+          "survivor_rows": 11
+        },
+        {
+          "base_hit_rate": 0.07574987290289781,
+          "base_mean_return": -0.016743828746647132,
+          "candidate_rows": 1967,
+          "date": "2024-05-24",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.028871865943925434,
+          "survivor_rows": 9
+        },
+        {
+          "base_hit_rate": 0.22674123029994916,
+          "base_mean_return": 0.0017826788141992182,
+          "candidate_rows": 1967,
+          "date": "2024-05-28",
+          "survivor_hit_rate": 0.2222222222222222,
+          "survivor_mean_return": -0.0012400797598310057,
+          "survivor_rows": 9
+        },
+        {
+          "base_hit_rate": 0.22951653944020356,
+          "base_mean_return": 0.002071041876567961,
+          "candidate_rows": 1965,
+          "date": "2024-05-29",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.04050986561354031,
+          "survivor_rows": 1
+        },
+        {
+          "base_hit_rate": 0.15474378488077117,
+          "base_mean_return": -0.007162755872577064,
+          "candidate_rows": 1971,
+          "date": "2024-05-30",
+          "survivor_hit_rate": 0.3333333333333333,
+          "survivor_mean_return": -0.019709573469180675,
+          "survivor_rows": 3
+        },
+        {
+          "base_hit_rate": 0.08135421930267812,
+          "base_mean_return": -0.016828809111354388,
+          "candidate_rows": 1979,
+          "date": "2024-05-31",
+          "survivor_hit_rate": 0.14285714285714285,
+          "survivor_mean_return": 0.003851900560064847,
+          "survivor_rows": 14
+        },
+        {
+          "base_hit_rate": 0.1426403641881639,
+          "base_mean_return": -0.008195973252407953,
+          "candidate_rows": 1977,
+          "date": "2024-06-03",
+          "survivor_hit_rate": 0.5,
+          "survivor_mean_return": 0.1611368386361962,
+          "survivor_rows": 2
+        },
+        {
+          "base_hit_rate": 0.13915693245302183,
+          "base_mean_return": -0.007726766571303983,
+          "candidate_rows": 1969,
+          "date": "2024-06-04",
+          "survivor_hit_rate": 0.5,
+          "survivor_mean_return": 0.18069233735699863,
+          "survivor_rows": 2
+        },
+        {
+          "base_hit_rate": 0.0963673057517659,
+          "base_mean_return": -0.015047528439705195,
+          "candidate_rows": 1982,
+          "date": "2024-06-05",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.0829500769417118,
+          "survivor_rows": 2
+        },
+        {
+          "base_hit_rate": 0.14610717896865522,
+          "base_mean_return": -0.006611100255581407,
+          "candidate_rows": 1978,
+          "date": "2024-06-06",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.08029613024768367,
+          "survivor_rows": 3
+        },
+        {
+          "base_hit_rate": 0.20670391061452514,
+          "base_mean_return": 0.002299261240839054,
+          "candidate_rows": 1969,
+          "date": "2024-06-07",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.0784029237195869,
+          "survivor_rows": 2
+        },
+        {
+          "base_hit_rate": 0.20324379118094274,
+          "base_mean_return": -0.0001654479213747376,
+          "candidate_rows": 1973,
+          "date": "2024-06-10",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.020238390019410413,
+          "survivor_rows": 1
+        },
+        {
+          "base_hit_rate": 0.05977710233029382,
+          "base_mean_return": -0.02217415088464079,
+          "candidate_rows": 1974,
+          "date": "2024-06-11",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.07142857142857142,
+          "base_mean_return": -0.019921900776670925,
+          "candidate_rows": 1974,
+          "date": "2024-06-12",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": 0.06853743211799031,
+          "survivor_rows": 3
+        },
+        {
+          "base_hit_rate": 0.22199695894576787,
+          "base_mean_return": 0.0013517042369038514,
+          "candidate_rows": 1973,
+          "date": "2024-06-13",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": 0.08145841561414147,
+          "survivor_rows": 3
+        },
+        {
+          "base_hit_rate": 0.27351738241308793,
+          "base_mean_return": 0.007411184324434455,
+          "candidate_rows": 1956,
+          "date": "2024-06-14",
+          "survivor_hit_rate": 0.3333333333333333,
+          "survivor_mean_return": 0.01573270387538846,
+          "survivor_rows": 3
+        },
+        {
+          "base_hit_rate": 0.18414322250639387,
+          "base_mean_return": -0.0003337952273174853,
+          "candidate_rows": 1955,
+          "date": "2024-06-17",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.03587187041351503,
+          "survivor_rows": 3
+        },
+        {
+          "base_hit_rate": 0.20936213991769548,
+          "base_mean_return": 0.004250155183916122,
+          "candidate_rows": 1944,
+          "date": "2024-06-18",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.09215391492272035,
+          "survivor_rows": 2
+        },
+        {
+          "base_hit_rate": 0.1695786228160329,
+          "base_mean_return": 0.0008045651335842551,
+          "candidate_rows": 1946,
+          "date": "2024-06-20",
+          "survivor_hit_rate": 0.2,
+          "survivor_mean_return": -0.034619717336940845,
+          "survivor_rows": 5
+        },
+        {
+          "base_hit_rate": 0.16401845207585852,
+          "base_mean_return": -0.001916392340112651,
+          "candidate_rows": 1951,
+          "date": "2024-06-21",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.041501509263829055,
+          "survivor_rows": 7
+        },
+        {
+          "base_hit_rate": 0.1473899692937564,
+          "base_mean_return": -0.0038358264240172927,
+          "candidate_rows": 1954,
+          "date": "2024-06-24",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.07523351329197996,
+          "survivor_rows": 3
+        }
+      ],
+      "3": [
+        {
+          "base_hit_rate": 0.21942446043165467,
+          "base_mean_return": 0.008384877773251451,
+          "candidate_rows": 1946,
+          "date": "2024-06-25",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.07854757572564974,
+          "survivor_rows": 3
+        },
+        {
+          "base_hit_rate": 0.2911522633744856,
+          "base_mean_return": 0.01460358705692723,
+          "candidate_rows": 1944,
+          "date": "2024-06-26",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.13533267969496277,
+          "survivor_rows": 2
+        },
+        {
+          "base_hit_rate": 0.22722620266120777,
+          "base_mean_return": 0.003137399004379766,
+          "candidate_rows": 1954,
+          "date": "2024-06-27",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.059941541654662735,
+          "survivor_rows": 3
+        },
+        {
+          "base_hit_rate": 0.1960285132382892,
+          "base_mean_return": -0.0002493814377291175,
+          "candidate_rows": 1964,
+          "date": "2024-06-28",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.07982818150699429,
+          "survivor_rows": 3
+        },
+        {
+          "base_hit_rate": 0.4440488301119023,
+          "base_mean_return": 0.024874574995601823,
+          "candidate_rows": 1966,
+          "date": "2024-07-01",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.20237239130763662,
+          "survivor_rows": 1
+        },
+        {
+          "base_hit_rate": 0.3756345177664975,
+          "base_mean_return": 0.01865438402399863,
+          "candidate_rows": 1970,
+          "date": "2024-07-02",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.09298113153191201,
+          "survivor_rows": 1
+        },
+        {
+          "base_hit_rate": 0.5053272450532724,
+          "base_mean_return": 0.027379272882592228,
+          "candidate_rows": 1971,
+          "date": "2024-07-03",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.5081549439347605,
+          "base_mean_return": 0.025163462236311638,
+          "candidate_rows": 1962,
+          "date": "2024-07-05",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.6049695740365112,
+          "base_mean_return": 0.03430396701886545,
+          "candidate_rows": 1972,
+          "date": "2024-07-08",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.24104484296709594,
+          "survivor_rows": 1
+        },
+        {
+          "base_hit_rate": 0.7063291139240506,
+          "base_mean_return": 0.04271569924387902,
+          "candidate_rows": 1975,
+          "date": "2024-07-09",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.07972292181209761,
+          "survivor_rows": 3
+        },
+        {
+          "base_hit_rate": 0.6636363636363637,
+          "base_mean_return": 0.036927793628520285,
+          "candidate_rows": 1980,
+          "date": "2024-07-10",
+          "survivor_hit_rate": 0.5,
+          "survivor_mean_return": -0.10506046924298434,
+          "survivor_rows": 2
+        },
+        {
+          "base_hit_rate": 0.5251368840219014,
+          "base_mean_return": 0.02483370348434251,
+          "candidate_rows": 2009,
+          "date": "2024-07-11",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.2811524330924404,
+          "survivor_rows": 1
+        },
+        {
+          "base_hit_rate": 0.48933002481389576,
+          "base_mean_return": 0.02139410634614232,
+          "candidate_rows": 2015,
+          "date": "2024-07-12",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.2685184087797996,
+          "survivor_rows": 1
+        },
+        {
+          "base_hit_rate": 0.3791398912506179,
+          "base_mean_return": 0.009284166667510257,
+          "candidate_rows": 2023,
+          "date": "2024-07-15",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.0661421079688574,
+          "survivor_rows": 5
+        },
+        {
+          "base_hit_rate": 0.1969622733953944,
+          "base_mean_return": -0.007747071220433285,
+          "candidate_rows": 2041,
+          "date": "2024-07-16",
+          "survivor_hit_rate": 0.1111111111111111,
+          "survivor_mean_return": -0.04700554549416579,
+          "survivor_rows": 9
+        },
+        {
+          "base_hit_rate": 0.16642192853646598,
+          "base_mean_return": -0.011052734844021798,
+          "candidate_rows": 2043,
+          "date": "2024-07-17",
+          "survivor_hit_rate": 0.25,
+          "survivor_mean_return": -0.016368585072100234,
+          "survivor_rows": 4
+        },
+        {
+          "base_hit_rate": 0.26765432098765435,
+          "base_mean_return": 0.0020419586346927675,
+          "candidate_rows": 2025,
+          "date": "2024-07-18",
+          "survivor_hit_rate": 0.375,
+          "survivor_mean_return": 0.003539457828082765,
+          "survivor_rows": 8
+        },
+        {
+          "base_hit_rate": 0.34385791810557476,
+          "base_mean_return": 0.003810290937355111,
+          "candidate_rows": 2027,
+          "date": "2024-07-19",
+          "survivor_hit_rate": 0.47058823529411764,
+          "survivor_mean_return": 0.019934383691511983,
+          "survivor_rows": 17
+        },
+        {
+          "base_hit_rate": 0.2890855457227139,
+          "base_mean_return": -0.004658649269118994,
+          "candidate_rows": 2034,
+          "date": "2024-07-22",
+          "survivor_hit_rate": 0.2,
+          "survivor_mean_return": -0.013771508987991468,
+          "survivor_rows": 35
+        },
+        {
+          "base_hit_rate": 0.23671259842519685,
+          "base_mean_return": -0.011588797714664157,
+          "candidate_rows": 2032,
+          "date": "2024-07-23",
+          "survivor_hit_rate": 0.4117647058823529,
+          "survivor_mean_return": 0.0042929349230630895,
+          "survivor_rows": 34
+        },
+        {
+          "base_hit_rate": 0.31123206333498266,
+          "base_mean_return": -0.00529898120494861,
+          "candidate_rows": 2021,
+          "date": "2024-07-24",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.029361426404980157,
+          "survivor_rows": 4
+        },
+        {
+          "base_hit_rate": 0.1411706837186424,
+          "base_mean_return": -0.024859017567475404,
+          "candidate_rows": 2033,
+          "date": "2024-07-25",
+          "survivor_hit_rate": 0.3333333333333333,
+          "survivor_mean_return": 0.004631235909992023,
+          "survivor_rows": 15
+        },
+        {
+          "base_hit_rate": 0.09901960784313725,
+          "base_mean_return": -0.03011957147174712,
+          "candidate_rows": 2040,
+          "date": "2024-07-26",
+          "survivor_hit_rate": 0.21875,
+          "survivor_mean_return": -0.010231599359027795,
+          "survivor_rows": 32
+        },
+        {
+          "base_hit_rate": 0.09980334316617502,
+          "base_mean_return": -0.030413148023231293,
+          "candidate_rows": 2034,
+          "date": "2024-07-29",
+          "survivor_hit_rate": 0.2222222222222222,
+          "survivor_mean_return": -0.011595626462955989,
+          "survivor_rows": 9
+        },
+        {
+          "base_hit_rate": 0.05992141453831041,
+          "base_mean_return": -0.03438118273936108,
+          "candidate_rows": 2036,
+          "date": "2024-07-30",
+          "survivor_hit_rate": 0.23809523809523808,
+          "survivor_mean_return": -0.01081430832043042,
+          "survivor_rows": 21
+        },
+        {
+          "base_hit_rate": 0.03678273663560569,
+          "base_mean_return": -0.03676864879262081,
+          "candidate_rows": 2039,
+          "date": "2024-07-31",
+          "survivor_hit_rate": 0.09090909090909091,
+          "survivor_mean_return": -0.023709884538815538,
+          "survivor_rows": 154
+        },
+        {
+          "base_hit_rate": 0.02967359050445104,
+          "base_mean_return": -0.04237428478675543,
+          "candidate_rows": 2022,
+          "date": "2024-08-01",
+          "survivor_hit_rate": 0.06666666666666667,
+          "survivor_mean_return": -0.04067032763347518,
+          "survivor_rows": 15
+        },
+        {
+          "base_hit_rate": 0.302407221664995,
+          "base_mean_return": 0.047118495418173735,
+          "candidate_rows": 1994,
+          "date": "2024-08-02",
+          "survivor_hit_rate": 0.3333333333333333,
+          "survivor_mean_return": 0.02962400986807217,
+          "survivor_rows": 15
+        },
+        {
+          "base_hit_rate": 0.2268822637695806,
+          "base_mean_return": 0.037317594189922164,
+          "candidate_rows": 1979,
+          "date": "2024-08-05",
+          "survivor_hit_rate": 0.34782608695652173,
+          "survivor_mean_return": 0.007448664243847341,
+          "survivor_rows": 23
+        },
+        {
+          "base_hit_rate": 0.12272727272727273,
+          "base_mean_return": 0.006909668573874496,
+          "candidate_rows": 1980,
+          "date": "2024-08-06",
+          "survivor_hit_rate": 0.14864864864864866,
+          "survivor_mean_return": -0.0019249754220238707,
+          "survivor_rows": 74
+        },
+        {
+          "base_hit_rate": 0.1821882951653944,
+          "base_mean_return": 0.04291191570114995,
+          "candidate_rows": 1965,
+          "date": "2024-08-07",
+          "survivor_hit_rate": 0.16666666666666666,
+          "survivor_mean_return": -0.05822114493172431,
+          "survivor_rows": 6
+        },
+        {
+          "base_hit_rate": 0.11886697015680324,
+          "base_mean_return": 0.02577060487057212,
+          "candidate_rows": 1977,
+          "date": "2024-08-08",
+          "survivor_hit_rate": 0.17142857142857143,
+          "survivor_mean_return": 0.0005463978020635617,
+          "survivor_rows": 35
+        },
+        {
+          "base_hit_rate": 0.18740477399695277,
+          "base_mean_return": 0.05041089222357428,
+          "candidate_rows": 1969,
+          "date": "2024-08-09",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.11130389978307582,
+          "survivor_rows": 3
+        },
+        {
+          "base_hit_rate": 0.27105666156202146,
+          "base_mean_return": 0.058779690347134185,
+          "candidate_rows": 1959,
+          "date": "2024-08-12",
+          "survivor_hit_rate": 0.2,
+          "survivor_mean_return": 0.004252687839471326,
+          "survivor_rows": 5
+        },
+        {
+          "base_hit_rate": 0.188545362392296,
+          "base_mean_return": 0.040485481321668376,
+          "candidate_rows": 1973,
+          "date": "2024-08-13",
+          "survivor_hit_rate": 0.5,
+          "survivor_mean_return": 0.03594411941618797,
+          "survivor_rows": 2
+        },
+        {
+          "base_hit_rate": 0.1472986748216106,
+          "base_mean_return": 0.025951616340770478,
+          "candidate_rows": 1962,
+          "date": "2024-08-14",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.014483727485157138,
+          "survivor_rows": 2
+        },
+        {
+          "base_hit_rate": 0.14992428066633012,
+          "base_mean_return": 0.028899531908334018,
+          "candidate_rows": 1981,
+          "date": "2024-08-15",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": 0.023378145472542505,
+          "survivor_rows": 3
+        },
+        {
+          "base_hit_rate": 0.11150353178607467,
+          "base_mean_return": 0.02742668260343794,
+          "candidate_rows": 1982,
+          "date": "2024-08-16",
+          "survivor_hit_rate": 1.0,
+          "survivor_mean_return": 0.16784178158775853,
+          "survivor_rows": 2
+        },
+        {
+          "base_hit_rate": 0.08512769153730596,
+          "base_mean_return": -0.0005577453274342313,
+          "candidate_rows": 1997,
+          "date": "2024-08-19",
+          "survivor_hit_rate": 1.0,
+          "survivor_mean_return": 0.16475279186870417,
+          "survivor_rows": 2
+        },
+        {
+          "base_hit_rate": 0.11150175791059769,
+          "base_mean_return": -0.00016067611557601087,
+          "candidate_rows": 1991,
+          "date": "2024-08-20",
+          "survivor_hit_rate": 1.0,
+          "survivor_mean_return": 0.17936310966128288,
+          "survivor_rows": 2
+        },
+        {
+          "base_hit_rate": 0.1328986960882648,
+          "base_mean_return": -0.006377061983267129,
+          "candidate_rows": 1994,
+          "date": "2024-08-21",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.0824403801653324,
+          "survivor_rows": 1
+        },
+        {
+          "base_hit_rate": 0.12632642748863063,
+          "base_mean_return": -0.01206384354364827,
+          "candidate_rows": 1979,
+          "date": "2024-08-22",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.07668398559354145,
+          "survivor_rows": 2
+        },
+        {
+          "base_hit_rate": 0.06836327345309381,
+          "base_mean_return": -0.024074950861648913,
+          "candidate_rows": 2004,
+          "date": "2024-08-23",
+          "survivor_hit_rate": 0.1,
+          "survivor_mean_return": -0.028134554067253337,
+          "survivor_rows": 10
+        },
+        {
+          "base_hit_rate": 0.08909905425584869,
+          "base_mean_return": -0.021489206226445706,
+          "candidate_rows": 2009,
+          "date": "2024-08-26",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.0945945945945946,
+          "base_mean_return": -0.020192946986510092,
+          "candidate_rows": 1998,
+          "date": "2024-08-27",
+          "survivor_hit_rate": 0.1111111111111111,
+          "survivor_mean_return": -0.02614748844349905,
+          "survivor_rows": 9
+        },
+        {
+          "base_hit_rate": 0.0786967418546366,
+          "base_mean_return": -0.02089301653673523,
+          "candidate_rows": 1995,
+          "date": "2024-08-28",
+          "survivor_hit_rate": 0.5,
+          "survivor_mean_return": 0.02090288918903538,
+          "survivor_rows": 2
+        },
+        {
+          "base_hit_rate": 0.07796101949025487,
+          "base_mean_return": -0.021505281339300148,
+          "candidate_rows": 2001,
+          "date": "2024-08-29",
+          "survivor_hit_rate": 0.15,
+          "survivor_mean_return": -0.015286156338114148,
+          "survivor_rows": 20
+        },
+        {
+          "base_hit_rate": 0.08374875373878365,
+          "base_mean_return": -0.020308896684875045,
+          "candidate_rows": 2006,
+          "date": "2024-08-30",
+          "survivor_hit_rate": 0.13793103448275862,
+          "survivor_mean_return": -0.011941103042433402,
+          "survivor_rows": 145
+        },
+        {
+          "base_hit_rate": 0.1654059505799294,
+          "base_mean_return": -0.005401464982796693,
+          "candidate_rows": 1983,
+          "date": "2024-09-03",
+          "survivor_hit_rate": 0.29411764705882354,
+          "survivor_mean_return": 0.015339499126775458,
+          "survivor_rows": 17
+        },
+        {
+          "base_hit_rate": 0.11850731215330308,
+          "base_mean_return": -0.011471744637063788,
+          "candidate_rows": 1983,
+          "date": "2024-09-04",
+          "survivor_hit_rate": 0.28,
+          "survivor_mean_return": 0.0004352018748309616,
+          "survivor_rows": 25
+        },
+        {
+          "base_hit_rate": 0.1566750629722922,
+          "base_mean_return": -0.007276429993507434,
+          "candidate_rows": 1985,
+          "date": "2024-09-05",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.02070776728347489,
+          "survivor_rows": 16
+        },
+        {
+          "base_hit_rate": 0.33181357649442755,
+          "base_mean_return": 0.015130543853412405,
+          "candidate_rows": 1974,
+          "date": "2024-09-06",
+          "survivor_hit_rate": 0.5,
+          "survivor_mean_return": 0.008931977236975364,
+          "survivor_rows": 4
+        },
+        {
+          "base_hit_rate": 0.2972151898734177,
+          "base_mean_return": 0.012732983918094864,
+          "candidate_rows": 1975,
+          "date": "2024-09-09",
+          "survivor_hit_rate": 0.20437956204379562,
+          "survivor_mean_return": -0.003554491567333412,
+          "survivor_rows": 137
+        },
+        {
+          "base_hit_rate": 0.4908998988877654,
+          "base_mean_return": 0.0362616460415982,
+          "candidate_rows": 1978,
+          "date": "2024-09-10",
+          "survivor_hit_rate": 0.6,
+          "survivor_mean_return": 0.03829572100459002,
+          "survivor_rows": 15
+        },
+        {
+          "base_hit_rate": 0.5438950554994955,
+          "base_mean_return": 0.04099158771613246,
+          "candidate_rows": 1982,
+          "date": "2024-09-11",
+          "survivor_hit_rate": 0.5853658536585366,
+          "survivor_mean_return": 0.035428857009530426,
+          "survivor_rows": 41
+        },
+        {
+          "base_hit_rate": 0.4164563351842504,
+          "base_mean_return": 0.0301529303795628,
+          "candidate_rows": 1981,
+          "date": "2024-09-12",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": 0.01160891685901591,
+          "survivor_rows": 4
+        },
+        {
+          "base_hit_rate": 0.2985449071751129,
+          "base_mean_return": 0.016639503371031726,
+          "candidate_rows": 1993,
+          "date": "2024-09-13",
+          "survivor_hit_rate": 0.6666666666666666,
+          "survivor_mean_return": 0.06577925623197105,
+          "survivor_rows": 3
+        },
+        {
+          "base_hit_rate": 0.2122428499749122,
+          "base_mean_return": 0.008302484872347601,
+          "candidate_rows": 1993,
+          "date": "2024-09-16",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.019654309223904654,
+          "survivor_rows": 5
+        },
+        {
+          "base_hit_rate": 0.1992971887550201,
+          "base_mean_return": 0.003312505733048496,
+          "candidate_rows": 1992,
+          "date": "2024-09-17",
+          "survivor_hit_rate": 0.25,
+          "survivor_mean_return": 0.0050972795930136205,
+          "survivor_rows": 4
+        },
+        {
+          "base_hit_rate": 0.09168336673346693,
+          "base_mean_return": -0.01494784191885509,
+          "candidate_rows": 1996,
+          "date": "2024-09-18",
+          "survivor_hit_rate": 0.16666666666666666,
+          "survivor_mean_return": 0.0031350151116403824,
+          "survivor_rows": 6
+        }
+      ],
+      "4": [
+        {
+          "base_hit_rate": 0.11846689895470383,
+          "base_mean_return": -0.010975910534509472,
+          "candidate_rows": 2009,
+          "date": "2024-09-19",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.021807426554595943,
+          "survivor_rows": 2
+        },
+        {
+          "base_hit_rate": 0.12319201995012469,
+          "base_mean_return": -0.008154513059073365,
+          "candidate_rows": 2005,
+          "date": "2024-09-20",
+          "survivor_hit_rate": 0.16666666666666666,
+          "survivor_mean_return": 0.0033480025407751635,
+          "survivor_rows": 6
+        },
+        {
+          "base_hit_rate": 0.11620947630922693,
+          "base_mean_return": -0.011008696123157692,
+          "candidate_rows": 2005,
+          "date": "2024-09-23",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.05565527594081754,
+          "survivor_rows": 1
+        },
+        {
+          "base_hit_rate": 0.1050796812749004,
+          "base_mean_return": -0.010238366938708077,
+          "candidate_rows": 2008,
+          "date": "2024-09-24",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.1295647823911956,
+          "base_mean_return": -0.009131977169051694,
+          "candidate_rows": 1999,
+          "date": "2024-09-25",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.10844577711144428,
+          "base_mean_return": -0.014096457380274102,
+          "candidate_rows": 2001,
+          "date": "2024-09-26",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.13879181228157764,
+          "base_mean_return": -0.006531380163521279,
+          "candidate_rows": 2003,
+          "date": "2024-09-27",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.11670822942643391,
+          "base_mean_return": -0.010868367207327135,
+          "candidate_rows": 2005,
+          "date": "2024-09-30",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.266432513798294,
+          "base_mean_return": 0.011519189150734292,
+          "candidate_rows": 1993,
+          "date": "2024-10-01",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.32998493219487696,
+          "base_mean_return": 0.021199785148251306,
+          "candidate_rows": 1991,
+          "date": "2024-10-02",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.23867069486404835,
+          "base_mean_return": 0.008660656164719437,
+          "candidate_rows": 1986,
+          "date": "2024-10-03",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.2875062719518314,
+          "base_mean_return": 0.011182402495027716,
+          "candidate_rows": 1993,
+          "date": "2024-10-04",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.008207518849311257,
+          "survivor_rows": 2
+        },
+        {
+          "base_hit_rate": 0.37575452716297786,
+          "base_mean_return": 0.019864822323828118,
+          "candidate_rows": 1988,
+          "date": "2024-10-07",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.026593966103268918,
+          "survivor_rows": 1
+        },
+        {
+          "base_hit_rate": 0.3877139979859013,
+          "base_mean_return": 0.017989983177896914,
+          "candidate_rows": 1986,
+          "date": "2024-10-08",
+          "survivor_hit_rate": 0.6666666666666666,
+          "survivor_mean_return": 0.03480956500086877,
+          "survivor_rows": 3
+        },
+        {
+          "base_hit_rate": 0.43655589123867067,
+          "base_mean_return": 0.024087611136476134,
+          "candidate_rows": 1986,
+          "date": "2024-10-09",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.022909031315916262,
+          "survivor_rows": 5
+        },
+        {
+          "base_hit_rate": 0.42561775088250126,
+          "base_mean_return": 0.023597667557641228,
+          "candidate_rows": 1983,
+          "date": "2024-10-10",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": 0.005930085918997833,
+          "survivor_rows": 3
+        },
+        {
+          "base_hit_rate": 0.24862705941088367,
+          "base_mean_return": 0.0029925522634187524,
+          "candidate_rows": 2003,
+          "date": "2024-10-11",
+          "survivor_hit_rate": 0.25,
+          "survivor_mean_return": -0.0019018244421854513,
+          "survivor_rows": 4
+        },
+        {
+          "base_hit_rate": 0.16125811283075386,
+          "base_mean_return": -0.002628873722347008,
+          "candidate_rows": 2003,
+          "date": "2024-10-14",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.10707171314741036,
+          "base_mean_return": -0.009758747322255673,
+          "candidate_rows": 2008,
+          "date": "2024-10-15",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.04746378765482656,
+          "survivor_rows": 2
+        },
+        {
+          "base_hit_rate": 0.07227722772277227,
+          "base_mean_return": -0.016508893905285586,
+          "candidate_rows": 2020,
+          "date": "2024-10-16",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.023814272238747825,
+          "survivor_rows": 2
+        },
+        {
+          "base_hit_rate": 0.07209876543209877,
+          "base_mean_return": -0.017379451609808555,
+          "candidate_rows": 2025,
+          "date": "2024-10-17",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.015218829001038325,
+          "survivor_rows": 1
+        },
+        {
+          "base_hit_rate": 0.0677882236516576,
+          "base_mean_return": -0.01879630691023597,
+          "candidate_rows": 2021,
+          "date": "2024-10-18",
+          "survivor_hit_rate": 1.0,
+          "survivor_mean_return": 0.13262906389882678,
+          "survivor_rows": 1
+        },
+        {
+          "base_hit_rate": 0.17488789237668162,
+          "base_mean_return": -0.005847175690784823,
+          "candidate_rows": 2007,
+          "date": "2024-10-21",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.07381510270919905,
+          "survivor_rows": 2
+        },
+        {
+          "base_hit_rate": 0.21739130434782608,
+          "base_mean_return": 0.0007989348933970261,
+          "candidate_rows": 2001,
+          "date": "2024-10-22",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.05300350493077166,
+          "survivor_rows": 2
+        },
+        {
+          "base_hit_rate": 0.3331660812844957,
+          "base_mean_return": 0.009856095124654417,
+          "candidate_rows": 1993,
+          "date": "2024-10-23",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.05108239269848691,
+          "survivor_rows": 2
+        },
+        {
+          "base_hit_rate": 0.28893340010015023,
+          "base_mean_return": 0.005336475708439999,
+          "candidate_rows": 1997,
+          "date": "2024-10-24",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.3676838419209605,
+          "base_mean_return": 0.01215746328473698,
+          "candidate_rows": 1999,
+          "date": "2024-10-25",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.3789159622078568,
+          "base_mean_return": 0.01099649340866083,
+          "candidate_rows": 2011,
+          "date": "2024-10-28",
+          "survivor_hit_rate": 0.6666666666666666,
+          "survivor_mean_return": 0.010626521667738772,
+          "survivor_rows": 3
+        },
+        {
+          "base_hit_rate": 0.3746268656716418,
+          "base_mean_return": 0.012353514259994905,
+          "candidate_rows": 2010,
+          "date": "2024-10-29",
+          "survivor_hit_rate": 0.25,
+          "survivor_mean_return": -0.0265484618706171,
+          "survivor_rows": 4
+        },
+        {
+          "base_hit_rate": 0.36839481555333997,
+          "base_mean_return": 0.011357344090069884,
+          "candidate_rows": 2006,
+          "date": "2024-10-30",
+          "survivor_hit_rate": 0.5,
+          "survivor_mean_return": -0.01860163686825564,
+          "survivor_rows": 4
+        },
+        {
+          "base_hit_rate": 0.5276807980049876,
+          "base_mean_return": 0.031111459472191703,
+          "candidate_rows": 2005,
+          "date": "2024-10-31",
+          "survivor_hit_rate": 0.5,
+          "survivor_mean_return": -0.029135149080736,
+          "survivor_rows": 2
+        },
+        {
+          "base_hit_rate": 0.6773067331670823,
+          "base_mean_return": 0.048109989577753996,
+          "candidate_rows": 2005,
+          "date": "2024-11-01",
+          "survivor_hit_rate": 0.5,
+          "survivor_mean_return": -0.026147295279347726,
+          "survivor_rows": 2
+        },
+        {
+          "base_hit_rate": 0.7061752988047809,
+          "base_mean_return": 0.0511015994668935,
+          "candidate_rows": 2008,
+          "date": "2024-11-04",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.0556456814327877,
+          "survivor_rows": 1
+        },
+        {
+          "base_hit_rate": 0.3150074294205052,
+          "base_mean_return": 0.005583019259275204,
+          "candidate_rows": 2019,
+          "date": "2024-11-05",
+          "survivor_hit_rate": 0.3333333333333333,
+          "survivor_mean_return": 0.004119146626497697,
+          "survivor_rows": 27
+        },
+        {
+          "base_hit_rate": 0.17459538989700835,
+          "base_mean_return": -0.008568982968068467,
+          "candidate_rows": 2039,
+          "date": "2024-11-06",
+          "survivor_hit_rate": 0.3125,
+          "survivor_mean_return": -0.00862914797682409,
+          "survivor_rows": 16
+        },
+        {
+          "base_hit_rate": 0.169921875,
+          "base_mean_return": -0.003765057387438256,
+          "candidate_rows": 2048,
+          "date": "2024-11-07",
+          "survivor_hit_rate": 0.4,
+          "survivor_mean_return": 0.005800560768487351,
+          "survivor_rows": 10
+        },
+        {
+          "base_hit_rate": 0.10346510492923378,
+          "base_mean_return": -0.016203280150138822,
+          "candidate_rows": 2049,
+          "date": "2024-11-08",
+          "survivor_hit_rate": 0.2,
+          "survivor_mean_return": -0.0018206266180570863,
+          "survivor_rows": 5
+        },
+        {
+          "base_hit_rate": 0.10754257907542579,
+          "base_mean_return": -0.015275250663641165,
+          "candidate_rows": 2055,
+          "date": "2024-11-11",
+          "survivor_hit_rate": 1.0,
+          "survivor_mean_return": 0.07486174624564135,
+          "survivor_rows": 1
+        },
+        {
+          "base_hit_rate": 0.09941234084231146,
+          "base_mean_return": -0.0172648971976458,
+          "candidate_rows": 2042,
+          "date": "2024-11-12",
+          "survivor_hit_rate": 0.3333333333333333,
+          "survivor_mean_return": 0.016119421609095557,
+          "survivor_rows": 3
+        },
+        {
+          "base_hit_rate": 0.12885840274375307,
+          "base_mean_return": -0.008826496283386906,
+          "candidate_rows": 2041,
+          "date": "2024-11-13",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.19113300492610838,
+          "base_mean_return": 0.005652830604387091,
+          "candidate_rows": 2030,
+          "date": "2024-11-14",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.3062034739454094,
+          "base_mean_return": 0.03769285514899328,
+          "candidate_rows": 2015,
+          "date": "2024-11-15",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": 0.036789376975886245,
+          "survivor_rows": 1
+        },
+        {
+          "base_hit_rate": 0.4465971187282663,
+          "base_mean_return": 0.05445093564195081,
+          "candidate_rows": 2013,
+          "date": "2024-11-18",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.3781637717121588,
+          "base_mean_return": 0.04399228003942744,
+          "candidate_rows": 2015,
+          "date": "2024-11-19",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.3270564915758176,
+          "base_mean_return": 0.032909872485944784,
+          "candidate_rows": 2018,
+          "date": "2024-11-20",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.20147783251231527,
+          "base_mean_return": 0.01870864368480278,
+          "candidate_rows": 2030,
+          "date": "2024-11-21",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.0009995002498749406,
+          "survivor_rows": 1
+        },
+        {
+          "base_hit_rate": 0.0871694417238002,
+          "base_mean_return": -0.01035777342113455,
+          "candidate_rows": 2042,
+          "date": "2024-11-22",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": 0.0035331698941818424,
+          "survivor_rows": 1
+        },
+        {
+          "base_hit_rate": 0.08227848101265822,
+          "base_mean_return": -0.011550218408470205,
+          "candidate_rows": 2054,
+          "date": "2024-11-25",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.00526043149713377,
+          "survivor_rows": 3
+        },
+        {
+          "base_hit_rate": 0.09433040078201368,
+          "base_mean_return": -0.009927405178984196,
+          "candidate_rows": 2046,
+          "date": "2024-11-26",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.022505320610120172,
+          "survivor_rows": 2
+        },
+        {
+          "base_hit_rate": 0.10034096444227959,
+          "base_mean_return": -0.01343065754057406,
+          "candidate_rows": 2053,
+          "date": "2024-11-27",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.01759920643907642,
+          "survivor_rows": 1
+        },
+        {
+          "base_hit_rate": 0.1048780487804878,
+          "base_mean_return": -0.01446096985711801,
+          "candidate_rows": 2050,
+          "date": "2024-11-29",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.09766763848396501,
+          "base_mean_return": -0.013660370448687778,
+          "candidate_rows": 2058,
+          "date": "2024-12-02",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.034974327112652415,
+          "survivor_rows": 2
+        },
+        {
+          "base_hit_rate": 0.09375,
+          "base_mean_return": -0.014998291789047075,
+          "candidate_rows": 2048,
+          "date": "2024-12-03",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.06634146341463415,
+          "base_mean_return": -0.023287681300591577,
+          "candidate_rows": 2050,
+          "date": "2024-12-04",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.06049157977823105,
+          "survivor_rows": 2
+        },
+        {
+          "base_hit_rate": 0.06601466992665037,
+          "base_mean_return": -0.02400223279409211,
+          "candidate_rows": 2045,
+          "date": "2024-12-05",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.05322265625,
+          "base_mean_return": -0.025449008035329908,
+          "candidate_rows": 2048,
+          "date": "2024-12-06",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.09236011339543881,
+          "survivor_rows": 1
+        },
+        {
+          "base_hit_rate": 0.05332681017612524,
+          "base_mean_return": -0.02386252736605823,
+          "candidate_rows": 2044,
+          "date": "2024-12-09",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.03667481662591687,
+          "base_mean_return": -0.025311320493093793,
+          "candidate_rows": 2045,
+          "date": "2024-12-10",
+          "survivor_rows": 0
+        },
+        {
+          "base_hit_rate": 0.03571428571428571,
+          "base_mean_return": -0.024649690243152358,
+          "candidate_rows": 2044,
+          "date": "2024-12-11",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.03776532571814972,
+          "survivor_rows": 3
+        },
+        {
+          "base_hit_rate": 0.040746195385370644,
+          "base_mean_return": -0.022733518854081248,
+          "candidate_rows": 2037,
+          "date": "2024-12-12",
+          "survivor_hit_rate": 0.0,
+          "survivor_mean_return": -0.04417609186517102,
+          "survivor_rows": 1
+        }
+      ]
+    },
+    "daily_strategy_returns": {
+      "stage1_probability": {
+        "1": [
+          {
+            "candidate_rows": 2016,
+            "date": "2024-01-02",
+            "net_return_for_top_k": 0.045563943798539716
+          },
+          {
+            "candidate_rows": 2000,
+            "date": "2024-01-03",
+            "net_return_for_top_k": -0.004890406407939784
+          },
+          {
+            "candidate_rows": 2003,
+            "date": "2024-01-04",
+            "net_return_for_top_k": 0.015987855128791906
+          },
+          {
+            "candidate_rows": 2000,
+            "date": "2024-01-05",
+            "net_return_for_top_k": -0.009049063507939792
+          },
+          {
+            "candidate_rows": 2011,
+            "date": "2024-01-08",
+            "net_return_for_top_k": 0.00697592137922316
+          },
+          {
+            "candidate_rows": 2011,
+            "date": "2024-01-09",
+            "net_return_for_top_k": -0.016251327603954802
+          },
+          {
+            "candidate_rows": 2003,
+            "date": "2024-01-10",
+            "net_return_for_top_k": -0.01023641670914881
+          },
+          {
+            "candidate_rows": 1997,
+            "date": "2024-01-11",
+            "net_return_for_top_k": -0.02698855171004557
+          },
+          {
+            "candidate_rows": 1992,
+            "date": "2024-01-12",
+            "net_return_for_top_k": -0.010376268966209667
+          },
+          {
+            "candidate_rows": 1979,
+            "date": "2024-01-16",
+            "net_return_for_top_k": 0.03836181449163534
+          },
+          {
+            "candidate_rows": 1975,
+            "date": "2024-01-17",
+            "net_return_for_top_k": -0.020078098397170563
+          },
+          {
+            "candidate_rows": 1973,
+            "date": "2024-01-18",
+            "net_return_for_top_k": 0.001597363185990175
+          },
+          {
+            "candidate_rows": 1976,
+            "date": "2024-01-19",
+            "net_return_for_top_k": -0.028225654266326772
+          },
+          {
+            "candidate_rows": 1992,
+            "date": "2024-01-22",
+            "net_return_for_top_k": -0.030293502078246326
+          },
+          {
+            "candidate_rows": 1997,
+            "date": "2024-01-23",
+            "net_return_for_top_k": 0.04087006653988421
+          },
+          {
+            "candidate_rows": 1993,
+            "date": "2024-01-24",
+            "net_return_for_top_k": 0.006000178723664739
+          },
+          {
+            "candidate_rows": 1993,
+            "date": "2024-01-25",
+            "net_return_for_top_k": -0.009029726044010223
+          },
+          {
+            "candidate_rows": 1991,
+            "date": "2024-01-26",
+            "net_return_for_top_k": 0.060036965877197514
+          },
+          {
+            "candidate_rows": 2011,
+            "date": "2024-01-29",
+            "net_return_for_top_k": -0.01030219235436447
+          },
+          {
+            "candidate_rows": 1997,
+            "date": "2024-01-30",
+            "net_return_for_top_k": -0.023289199888754573
+          },
+          {
+            "candidate_rows": 1982,
+            "date": "2024-01-31",
+            "net_return_for_top_k": -0.03054010206329416
+          },
+          {
+            "candidate_rows": 1992,
+            "date": "2024-02-01",
+            "net_return_for_top_k": 0.051655792329209735
+          },
+          {
+            "candidate_rows": 1982,
+            "date": "2024-02-02",
+            "net_return_for_top_k": 0.05162054551990001
+          },
+          {
+            "candidate_rows": 1972,
+            "date": "2024-02-05",
+            "net_return_for_top_k": 0.07434320684021575
+          },
+          {
+            "candidate_rows": 1982,
+            "date": "2024-02-06",
+            "net_return_for_top_k": -0.027237517115045427
+          },
+          {
+            "candidate_rows": 1971,
+            "date": "2024-02-07",
+            "net_return_for_top_k": -0.0437285073347178
+          },
+          {
+            "candidate_rows": 1982,
+            "date": "2024-02-08",
+            "net_return_for_top_k": -0.038996881896189085
+          },
+          {
+            "candidate_rows": 1984,
+            "date": "2024-02-09",
+            "net_return_for_top_k": 0.07994114206963165
+          },
+          {
+            "candidate_rows": 1995,
+            "date": "2024-02-12",
+            "net_return_for_top_k": 0.08238987200576023
+          },
+          {
+            "candidate_rows": 1968,
+            "date": "2024-02-13",
+            "net_return_for_top_k": -0.007855771307755721
+          },
+          {
+            "candidate_rows": 1983,
+            "date": "2024-02-14",
+            "net_return_for_top_k": 0.018698914396986878
+          },
+          {
+            "candidate_rows": 1997,
+            "date": "2024-02-15",
+            "net_return_for_top_k": 0.0066887562271078504
+          },
+          {
+            "candidate_rows": 1994,
+            "date": "2024-02-16",
+            "net_return_for_top_k": -0.004953486117480743
+          },
+          {
+            "candidate_rows": 1986,
+            "date": "2024-02-20",
+            "net_return_for_top_k": 0.036351183217289626
+          },
+          {
+            "candidate_rows": 1976,
+            "date": "2024-02-21",
+            "net_return_for_top_k": 0.03045914991396481
+          },
+          {
+            "candidate_rows": 1973,
+            "date": "2024-02-22",
+            "net_return_for_top_k": 0.06249492488096107
+          },
+          {
+            "candidate_rows": 1975,
+            "date": "2024-02-23",
+            "net_return_for_top_k": 0.06962181805013593
+          },
+          {
+            "candidate_rows": 1988,
+            "date": "2024-02-26",
+            "net_return_for_top_k": 0.010476235582333038
+          },
+          {
+            "candidate_rows": 1993,
+            "date": "2024-02-27",
+            "net_return_for_top_k": -0.028087954077714406
+          },
+          {
+            "candidate_rows": 1980,
+            "date": "2024-02-28",
+            "net_return_for_top_k": 0.017255855935779496
+          },
+          {
+            "candidate_rows": 1985,
+            "date": "2024-02-29",
+            "net_return_for_top_k": 0.1676263963910764
+          },
+          {
+            "candidate_rows": 2000,
+            "date": "2024-03-01",
+            "net_return_for_top_k": -0.06414551971944435
+          },
+          {
+            "candidate_rows": 1992,
+            "date": "2024-03-04",
+            "net_return_for_top_k": 0.038141220501134554
+          },
+          {
+            "candidate_rows": 1990,
+            "date": "2024-03-05",
+            "net_return_for_top_k": -0.01375008125701611
+          },
+          {
+            "candidate_rows": 1993,
+            "date": "2024-03-06",
+            "net_return_for_top_k": -0.014247985775431427
+          },
+          {
+            "candidate_rows": 1996,
+            "date": "2024-03-07",
+            "net_return_for_top_k": -0.013011707586847266
+          },
+          {
+            "candidate_rows": 1995,
+            "date": "2024-03-08",
+            "net_return_for_top_k": -0.03524179534454523
+          },
+          {
+            "candidate_rows": 1990,
+            "date": "2024-03-11",
+            "net_return_for_top_k": -0.06181716449377099
+          },
+          {
+            "candidate_rows": 1990,
+            "date": "2024-03-12",
+            "net_return_for_top_k": -0.05626238347229946
+          },
+          {
+            "candidate_rows": 1993,
+            "date": "2024-03-13",
+            "net_return_for_top_k": -0.05973128756991748
+          },
+          {
+            "candidate_rows": 1971,
+            "date": "2024-03-14",
+            "net_return_for_top_k": 0.05888835031678843
+          },
+          {
+            "candidate_rows": 1982,
+            "date": "2024-03-15",
+            "net_return_for_top_k": 0.002565063601337081
+          },
+          {
+            "candidate_rows": 1976,
+            "date": "2024-03-18",
+            "net_return_for_top_k": -0.05346510883031386
+          },
+          {
+            "candidate_rows": 1985,
+            "date": "2024-03-19",
+            "net_return_for_top_k": -0.009135300433451876
+          },
+          {
+            "candidate_rows": 1998,
+            "date": "2024-03-20",
+            "net_return_for_top_k": 0.04530426648279673
+          },
+          {
+            "candidate_rows": 2001,
+            "date": "2024-03-21",
+            "net_return_for_top_k": -0.0036999167575199055
+          },
+          {
+            "candidate_rows": 1987,
+            "date": "2024-03-22",
+            "net_return_for_top_k": 0.04175821112073115
+          },
+          {
+            "candidate_rows": 1987,
+            "date": "2024-03-25",
+            "net_return_for_top_k": 0.03786639636241522
+          },
+          {
+            "candidate_rows": 1985,
+            "date": "2024-03-26",
+            "net_return_for_top_k": 0.050077634605742015
+          },
+          {
+            "candidate_rows": 1997,
+            "date": "2024-03-27",
+            "net_return_for_top_k": -0.04019691764156195
+          }
+        ],
+        "2": [
+          {
+            "candidate_rows": 2002,
+            "date": "2024-03-28",
+            "net_return_for_top_k": -0.006082407870888718
+          },
+          {
+            "candidate_rows": 1998,
+            "date": "2024-04-01",
+            "net_return_for_top_k": -0.02786766078342957
+          },
+          {
+            "candidate_rows": 1987,
+            "date": "2024-04-02",
+            "net_return_for_top_k": -0.0033121646352373135
+          },
+          {
+            "candidate_rows": 1990,
+            "date": "2024-04-03",
+            "net_return_for_top_k": -0.03399597996670305
+          },
+          {
+            "candidate_rows": 1984,
+            "date": "2024-04-04",
+            "net_return_for_top_k": -0.02490093199240968
+          },
+          {
+            "candidate_rows": 1981,
+            "date": "2024-04-05",
+            "net_return_for_top_k": -0.028045840956439895
+          },
+          {
+            "candidate_rows": 1986,
+            "date": "2024-04-08",
+            "net_return_for_top_k": -0.01876084842842778
+          },
+          {
+            "candidate_rows": 1987,
+            "date": "2024-04-09",
+            "net_return_for_top_k": -0.023003420100407478
+          },
+          {
+            "candidate_rows": 1965,
+            "date": "2024-04-10",
+            "net_return_for_top_k": -0.015071699140806971
+          },
+          {
+            "candidate_rows": 1971,
+            "date": "2024-04-11",
+            "net_return_for_top_k": -0.0066495907971637624
+          },
+          {
+            "candidate_rows": 1957,
+            "date": "2024-04-12",
+            "net_return_for_top_k": -0.01785393918294047
+          },
+          {
+            "candidate_rows": 1944,
+            "date": "2024-04-15",
+            "net_return_for_top_k": 0.010689581045800001
+          },
+          {
+            "candidate_rows": 1940,
+            "date": "2024-04-16",
+            "net_return_for_top_k": 0.004054089370537084
+          },
+          {
+            "candidate_rows": 1927,
+            "date": "2024-04-17",
+            "net_return_for_top_k": 0.00036311250155089957
+          },
+          {
+            "candidate_rows": 1930,
+            "date": "2024-04-18",
+            "net_return_for_top_k": -0.0066859567365791465
+          },
+          {
+            "candidate_rows": 1940,
+            "date": "2024-04-19",
+            "net_return_for_top_k": -0.0054909681517416155
+          },
+          {
+            "candidate_rows": 1939,
+            "date": "2024-04-22",
+            "net_return_for_top_k": 0.015158755687274672
+          },
+          {
+            "candidate_rows": 1945,
+            "date": "2024-04-23",
+            "net_return_for_top_k": -0.02523969881981112
+          },
+          {
+            "candidate_rows": 1942,
+            "date": "2024-04-24",
+            "net_return_for_top_k": 0.0021128690053287213
+          },
+          {
+            "candidate_rows": 1937,
+            "date": "2024-04-25",
+            "net_return_for_top_k": -0.013878200070196956
+          },
+          {
+            "candidate_rows": 1938,
+            "date": "2024-04-26",
+            "net_return_for_top_k": -0.009060292879738707
+          },
+          {
+            "candidate_rows": 1940,
+            "date": "2024-04-29",
+            "net_return_for_top_k": -0.007295928054706491
+          },
+          {
+            "candidate_rows": 1935,
+            "date": "2024-04-30",
+            "net_return_for_top_k": 0.019299043161953057
+          },
+          {
+            "candidate_rows": 1943,
+            "date": "2024-05-01",
+            "net_return_for_top_k": 0.007483474908248455
+          },
+          {
+            "candidate_rows": 1952,
+            "date": "2024-05-02",
+            "net_return_for_top_k": -0.0020394987868199268
+          },
+          {
+            "candidate_rows": 1960,
+            "date": "2024-05-03",
+            "net_return_for_top_k": 0.022506570247214964
+          },
+          {
+            "candidate_rows": 1967,
+            "date": "2024-05-06",
+            "net_return_for_top_k": -0.03047184691453031
+          },
+          {
+            "candidate_rows": 1970,
+            "date": "2024-05-07",
+            "net_return_for_top_k": -0.015464046574740209
+          },
+          {
+            "candidate_rows": 1964,
+            "date": "2024-05-08",
+            "net_return_for_top_k": 0.0397538030239706
+          },
+          {
+            "candidate_rows": 1977,
+            "date": "2024-05-09",
+            "net_return_for_top_k": -0.007847032055109749
+          },
+          {
+            "candidate_rows": 1970,
+            "date": "2024-05-10",
+            "net_return_for_top_k": -0.016418731954278766
+          },
+          {
+            "candidate_rows": 1977,
+            "date": "2024-05-13",
+            "net_return_for_top_k": 3.663134260720735e-05
+          },
+          {
+            "candidate_rows": 1983,
+            "date": "2024-05-14",
+            "net_return_for_top_k": -0.049969186443941216
+          },
+          {
+            "candidate_rows": 1979,
+            "date": "2024-05-15",
+            "net_return_for_top_k": -0.02305469474281967
+          },
+          {
+            "candidate_rows": 1980,
+            "date": "2024-05-16",
+            "net_return_for_top_k": -0.025956403860241783
+          },
+          {
+            "candidate_rows": 1985,
+            "date": "2024-05-17",
+            "net_return_for_top_k": -0.04623249046234144
+          },
+          {
+            "candidate_rows": 1976,
+            "date": "2024-05-20",
+            "net_return_for_top_k": -0.008210253364124532
+          },
+          {
+            "candidate_rows": 1972,
+            "date": "2024-05-21",
+            "net_return_for_top_k": -0.01640382943860086
+          },
+          {
+            "candidate_rows": 1973,
+            "date": "2024-05-22",
+            "net_return_for_top_k": -0.01008644177931448
+          },
+          {
+            "candidate_rows": 1961,
+            "date": "2024-05-23",
+            "net_return_for_top_k": -0.00630000114598539
+          },
+          {
+            "candidate_rows": 1965,
+            "date": "2024-05-24",
+            "net_return_for_top_k": -0.028287737999292805
+          },
+          {
+            "candidate_rows": 1964,
+            "date": "2024-05-28",
+            "net_return_for_top_k": 0.007051439798396242
+          },
+          {
+            "candidate_rows": 1963,
+            "date": "2024-05-29",
+            "net_return_for_top_k": 0.0006352010019176069
+          },
+          {
+            "candidate_rows": 1970,
+            "date": "2024-05-30",
+            "net_return_for_top_k": -0.01682046059983322
+          },
+          {
+            "candidate_rows": 1978,
+            "date": "2024-05-31",
+            "net_return_for_top_k": -0.018722018352694113
+          },
+          {
+            "candidate_rows": 1975,
+            "date": "2024-06-03",
+            "net_return_for_top_k": 0.04660399675369242
+          },
+          {
+            "candidate_rows": 1967,
+            "date": "2024-06-04",
+            "net_return_for_top_k": 0.06230994572724038
+          },
+          {
+            "candidate_rows": 1980,
+            "date": "2024-06-05",
+            "net_return_for_top_k": -0.04900951670307692
+          },
+          {
+            "candidate_rows": 1976,
+            "date": "2024-06-06",
+            "net_return_for_top_k": -0.04264258733736363
+          },
+          {
+            "candidate_rows": 1967,
+            "date": "2024-06-07",
+            "net_return_for_top_k": -0.04359068012433467
+          },
+          {
+            "candidate_rows": 1972,
+            "date": "2024-06-10",
+            "net_return_for_top_k": -0.01006632914149579
+          },
+          {
+            "candidate_rows": 1973,
+            "date": "2024-06-11",
+            "net_return_for_top_k": -0.02670120760291663
+          },
+          {
+            "candidate_rows": 1972,
+            "date": "2024-06-12",
+            "net_return_for_top_k": 0.029983808902207844
+          },
+          {
+            "candidate_rows": 1971,
+            "date": "2024-06-13",
+            "net_return_for_top_k": 0.05240965421294101
+          },
+          {
+            "candidate_rows": 1954,
+            "date": "2024-06-14",
+            "net_return_for_top_k": 0.03352926903111604
+          },
+          {
+            "candidate_rows": 1951,
+            "date": "2024-06-17",
+            "net_return_for_top_k": -0.02871408052530471
+          },
+          {
+            "candidate_rows": 1940,
+            "date": "2024-06-18",
+            "net_return_for_top_k": -0.060514541576863354
+          },
+          {
+            "candidate_rows": 1943,
+            "date": "2024-06-20",
+            "net_return_for_top_k": -0.034619717336940845
+          },
+          {
+            "candidate_rows": 1948,
+            "date": "2024-06-21",
+            "net_return_for_top_k": -0.06446301699661057
+          },
+          {
+            "candidate_rows": 1951,
+            "date": "2024-06-24",
+            "net_return_for_top_k": -0.03558796891416625
+          }
+        ],
+        "3": [
+          {
+            "candidate_rows": 1942,
+            "date": "2024-06-25",
+            "net_return_for_top_k": -0.04405996518054926
+          },
+          {
+            "candidate_rows": 1940,
+            "date": "2024-06-26",
+            "net_return_for_top_k": -0.06510959533975717
+          },
+          {
+            "candidate_rows": 1950,
+            "date": "2024-06-27",
+            "net_return_for_top_k": -0.03261582945585302
+          },
+          {
+            "candidate_rows": 1959,
+            "date": "2024-06-28",
+            "net_return_for_top_k": -0.04854803538335255
+          },
+          {
+            "candidate_rows": 1964,
+            "date": "2024-07-01",
+            "net_return_for_top_k": -0.05454525058209445
+          },
+          {
+            "candidate_rows": 1967,
+            "date": "2024-07-02",
+            "net_return_for_top_k": -0.007564244658200314
+          },
+          {
+            "candidate_rows": 1968,
+            "date": "2024-07-03",
+            "net_return_for_top_k": 0.0228292903754286
+          },
+          {
+            "candidate_rows": 1960,
+            "date": "2024-07-05",
+            "net_return_for_top_k": 0.010380059259146913
+          },
+          {
+            "candidate_rows": 1971,
+            "date": "2024-07-08",
+            "net_return_for_top_k": 0.006015745061360889
+          },
+          {
+            "candidate_rows": 1975,
+            "date": "2024-07-09",
+            "net_return_for_top_k": -0.016411409568546163
+          },
+          {
+            "candidate_rows": 1979,
+            "date": "2024-07-10",
+            "net_return_for_top_k": -0.05887126833099347
+          },
+          {
+            "candidate_rows": 2007,
+            "date": "2024-07-11",
+            "net_return_for_top_k": -0.0877118124053758
+          },
+          {
+            "candidate_rows": 2014,
+            "date": "2024-07-12",
+            "net_return_for_top_k": -0.06206192212562276
+          },
+          {
+            "candidate_rows": 2022,
+            "date": "2024-07-15",
+            "net_return_for_top_k": -0.0661421079688574
+          },
+          {
+            "candidate_rows": 2040,
+            "date": "2024-07-16",
+            "net_return_for_top_k": -0.06154596349846717
+          },
+          {
+            "candidate_rows": 2041,
+            "date": "2024-07-17",
+            "net_return_for_top_k": -0.010392643750839148
+          },
+          {
+            "candidate_rows": 2021,
+            "date": "2024-07-18",
+            "net_return_for_top_k": 0.0045377286076075055
+          },
+          {
+            "candidate_rows": 2024,
+            "date": "2024-07-19",
+            "net_return_for_top_k": 0.014474505926786275
+          },
+          {
+            "candidate_rows": 2031,
+            "date": "2024-07-22",
+            "net_return_for_top_k": -0.05858340305994849
+          },
+          {
+            "candidate_rows": 2028,
+            "date": "2024-07-23",
+            "net_return_for_top_k": 0.010476197355748451
+          },
+          {
+            "candidate_rows": 2018,
+            "date": "2024-07-24",
+            "net_return_for_top_k": -0.04869766741265673
+          },
+          {
+            "candidate_rows": 2031,
+            "date": "2024-07-25",
+            "net_return_for_top_k": -0.010651154642640704
+          },
+          {
+            "candidate_rows": 2038,
+            "date": "2024-07-26",
+            "net_return_for_top_k": -0.0035952770678894463
+          },
+          {
+            "candidate_rows": 2031,
+            "date": "2024-07-29",
+            "net_return_for_top_k": 0.008943623589844307
+          },
+          {
+            "candidate_rows": 2033,
+            "date": "2024-07-30",
+            "net_return_for_top_k": -0.015223875974005407
+          },
+          {
+            "candidate_rows": 2039,
+            "date": "2024-07-31",
+            "net_return_for_top_k": -0.03773235390439951
+          },
+          {
+            "candidate_rows": 2022,
+            "date": "2024-08-01",
+            "net_return_for_top_k": -0.041959978564984256
+          },
+          {
+            "candidate_rows": 1993,
+            "date": "2024-08-02",
+            "net_return_for_top_k": 0.04165129388734508
+          },
+          {
+            "candidate_rows": 1978,
+            "date": "2024-08-05",
+            "net_return_for_top_k": -0.007476520268686749
+          },
+          {
+            "candidate_rows": 1979,
+            "date": "2024-08-06",
+            "net_return_for_top_k": -0.07102694370474236
+          },
+          {
+            "candidate_rows": 1963,
+            "date": "2024-08-07",
+            "net_return_for_top_k": -0.06217692039958196
+          },
+          {
+            "candidate_rows": 1975,
+            "date": "2024-08-08",
+            "net_return_for_top_k": -0.03120907622096165
+          },
+          {
+            "candidate_rows": 1967,
+            "date": "2024-08-09",
+            "net_return_for_top_k": -0.0728360830340123
+          },
+          {
+            "candidate_rows": 1957,
+            "date": "2024-08-12",
+            "net_return_for_top_k": 0.004252687839471326
+          },
+          {
+            "candidate_rows": 1971,
+            "date": "2024-08-13",
+            "net_return_for_top_k": 0.0077394748370985585
+          },
+          {
+            "candidate_rows": 1959,
+            "date": "2024-08-14",
+            "net_return_for_top_k": 0.0066572551053587945
+          },
+          {
+            "candidate_rows": 1979,
+            "date": "2024-08-15",
+            "net_return_for_top_k": 0.031566779061035624
+          },
+          {
+            "candidate_rows": 1981,
+            "date": "2024-08-16",
+            "net_return_for_top_k": 0.07245801685724644
+          },
+          {
+            "candidate_rows": 1996,
+            "date": "2024-08-19",
+            "net_return_for_top_k": 0.047600355054735435
+          },
+          {
+            "candidate_rows": 1990,
+            "date": "2024-08-20",
+            "net_return_for_top_k": 0.09661719627142984
+          },
+          {
+            "candidate_rows": 1992,
+            "date": "2024-08-21",
+            "net_return_for_top_k": -0.028432675393473338
+          },
+          {
+            "candidate_rows": 1977,
+            "date": "2024-08-22",
+            "net_return_for_top_k": -0.044788958555884474
+          },
+          {
+            "candidate_rows": 2003,
+            "date": "2024-08-23",
+            "net_return_for_top_k": -0.032928364645726994
+          },
+          {
+            "candidate_rows": 2008,
+            "date": "2024-08-26",
+            "net_return_for_top_k": -0.028353678017299
+          },
+          {
+            "candidate_rows": 1996,
+            "date": "2024-08-27",
+            "net_return_for_top_k": -0.038709681364108614
+          },
+          {
+            "candidate_rows": 1994,
+            "date": "2024-08-28",
+            "net_return_for_top_k": 0.0340956670617568
+          },
+          {
+            "candidate_rows": 2000,
+            "date": "2024-08-29",
+            "net_return_for_top_k": -0.012006051714609445
+          },
+          {
+            "candidate_rows": 2005,
+            "date": "2024-08-30",
+            "net_return_for_top_k": -0.006479169775851901
+          },
+          {
+            "candidate_rows": 1982,
+            "date": "2024-09-03",
+            "net_return_for_top_k": 0.013807290196645639
+          },
+          {
+            "candidate_rows": 1983,
+            "date": "2024-09-04",
+            "net_return_for_top_k": -0.028929360513266465
+          },
+          {
+            "candidate_rows": 1984,
+            "date": "2024-09-05",
+            "net_return_for_top_k": -0.020395995436854397
+          },
+          {
+            "candidate_rows": 1971,
+            "date": "2024-09-06",
+            "net_return_for_top_k": 0.03626907711904841
+          },
+          {
+            "candidate_rows": 1974,
+            "date": "2024-09-09",
+            "net_return_for_top_k": 0.007057058231881364
+          },
+          {
+            "candidate_rows": 1978,
+            "date": "2024-09-10",
+            "net_return_for_top_k": 0.04024868102745995
+          },
+          {
+            "candidate_rows": 1981,
+            "date": "2024-09-11",
+            "net_return_for_top_k": 0.030333498233030443
+          },
+          {
+            "candidate_rows": 1979,
+            "date": "2024-09-12",
+            "net_return_for_top_k": -0.0023801958043930594
+          },
+          {
+            "candidate_rows": 1992,
+            "date": "2024-09-13",
+            "net_return_for_top_k": 0.031119459120451377
+          },
+          {
+            "candidate_rows": 1992,
+            "date": "2024-09-16",
+            "net_return_for_top_k": -0.019654309223904654
+          },
+          {
+            "candidate_rows": 1992,
+            "date": "2024-09-17",
+            "net_return_for_top_k": -0.006820278059832319
+          },
+          {
+            "candidate_rows": 1996,
+            "date": "2024-09-18",
+            "net_return_for_top_k": 0.008976020332104628
+          }
+        ],
+        "4": [
+          {
+            "candidate_rows": 2009,
+            "date": "2024-09-19",
+            "net_return_for_top_k": -0.012366817649111073
+          },
+          {
+            "candidate_rows": 2004,
+            "date": "2024-09-20",
+            "net_return_for_top_k": -0.03580252775357824
+          },
+          {
+            "candidate_rows": 2005,
+            "date": "2024-09-23",
+            "net_return_for_top_k": -0.018726674050091097
+          },
+          {
+            "candidate_rows": 2007,
+            "date": "2024-09-24",
+            "net_return_for_top_k": -0.03912222809575201
+          },
+          {
+            "candidate_rows": 1999,
+            "date": "2024-09-25",
+            "net_return_for_top_k": -0.0009931184504405888
+          },
+          {
+            "candidate_rows": 2000,
+            "date": "2024-09-26",
+            "net_return_for_top_k": 0.0011988830929811733
+          },
+          {
+            "candidate_rows": 2001,
+            "date": "2024-09-27",
+            "net_return_for_top_k": 0.02564255486960776
+          },
+          {
+            "candidate_rows": 2003,
+            "date": "2024-09-30",
+            "net_return_for_top_k": -0.024297488753684406
+          },
+          {
+            "candidate_rows": 1992,
+            "date": "2024-10-01",
+            "net_return_for_top_k": -0.029647469235409906
+          },
+          {
+            "candidate_rows": 1990,
+            "date": "2024-10-02",
+            "net_return_for_top_k": -0.014085126602734843
+          },
+          {
+            "candidate_rows": 1984,
+            "date": "2024-10-03",
+            "net_return_for_top_k": -0.004890477047260755
+          },
+          {
+            "candidate_rows": 1992,
+            "date": "2024-10-04",
+            "net_return_for_top_k": -0.03705108465106566
+          },
+          {
+            "candidate_rows": 1987,
+            "date": "2024-10-07",
+            "net_return_for_top_k": 0.041688925557648714
+          },
+          {
+            "candidate_rows": 1985,
+            "date": "2024-10-08",
+            "net_return_for_top_k": 0.010230967670294699
+          },
+          {
+            "candidate_rows": 1985,
+            "date": "2024-10-09",
+            "net_return_for_top_k": -0.022909031315916262
+          },
+          {
+            "candidate_rows": 1983,
+            "date": "2024-10-10",
+            "net_return_for_top_k": -0.00627854013207656
+          },
+          {
+            "candidate_rows": 2002,
+            "date": "2024-10-11",
+            "net_return_for_top_k": -0.006439142987135748
+          },
+          {
+            "candidate_rows": 2002,
+            "date": "2024-10-14",
+            "net_return_for_top_k": 0.025939449151873028
+          },
+          {
+            "candidate_rows": 2007,
+            "date": "2024-10-15",
+            "net_return_for_top_k": -0.029597897061621258
+          },
+          {
+            "candidate_rows": 2019,
+            "date": "2024-10-16",
+            "net_return_for_top_k": -0.01536494970193536
+          },
+          {
+            "candidate_rows": 2024,
+            "date": "2024-10-17",
+            "net_return_for_top_k": -0.02759669349546816
+          },
+          {
+            "candidate_rows": 2020,
+            "date": "2024-10-18",
+            "net_return_for_top_k": 0.005136961727526379
+          },
+          {
+            "candidate_rows": 2006,
+            "date": "2024-10-21",
+            "net_return_for_top_k": -0.026218489764125597
+          },
+          {
+            "candidate_rows": 2000,
+            "date": "2024-10-22",
+            "net_return_for_top_k": -0.004905435698662863
+          },
+          {
+            "candidate_rows": 1992,
+            "date": "2024-10-23",
+            "net_return_for_top_k": -0.033227088566313845
+          },
+          {
+            "candidate_rows": 1996,
+            "date": "2024-10-24",
+            "net_return_for_top_k": -0.005213421757819181
+          },
+          {
+            "candidate_rows": 1998,
+            "date": "2024-10-25",
+            "net_return_for_top_k": -0.0318357567500112
+          },
+          {
+            "candidate_rows": 2010,
+            "date": "2024-10-28",
+            "net_return_for_top_k": 0.00396939887406531
+          },
+          {
+            "candidate_rows": 2009,
+            "date": "2024-10-29",
+            "net_return_for_top_k": -0.020674493865384936
+          },
+          {
+            "candidate_rows": 2006,
+            "date": "2024-10-30",
+            "net_return_for_top_k": -0.0182238986167101
+          },
+          {
+            "candidate_rows": 2004,
+            "date": "2024-10-31",
+            "net_return_for_top_k": 0.011522129604823017
+          },
+          {
+            "candidate_rows": 2005,
+            "date": "2024-11-01",
+            "net_return_for_top_k": 0.03335364940867021
+          },
+          {
+            "candidate_rows": 2008,
+            "date": "2024-11-04",
+            "net_return_for_top_k": 0.01898622454446821
+          },
+          {
+            "candidate_rows": 2018,
+            "date": "2024-11-05",
+            "net_return_for_top_k": 0.008597082124558364
+          },
+          {
+            "candidate_rows": 2038,
+            "date": "2024-11-06",
+            "net_return_for_top_k": -0.028442335317444313
+          },
+          {
+            "candidate_rows": 2046,
+            "date": "2024-11-07",
+            "net_return_for_top_k": 0.009762674904802381
+          },
+          {
+            "candidate_rows": 2046,
+            "date": "2024-11-08",
+            "net_return_for_top_k": -0.0018206266180570863
+          },
+          {
+            "candidate_rows": 2052,
+            "date": "2024-11-11",
+            "net_return_for_top_k": 0.02765490932540453
+          },
+          {
+            "candidate_rows": 2038,
+            "date": "2024-11-12",
+            "net_return_for_top_k": 0.026029901711724656
+          },
+          {
+            "candidate_rows": 2038,
+            "date": "2024-11-13",
+            "net_return_for_top_k": -0.028418754172208672
+          },
+          {
+            "candidate_rows": 2026,
+            "date": "2024-11-14",
+            "net_return_for_top_k": -0.0038026597790888905
+          },
+          {
+            "candidate_rows": 2011,
+            "date": "2024-11-15",
+            "net_return_for_top_k": 0.013266098140365324
+          },
+          {
+            "candidate_rows": 2009,
+            "date": "2024-11-18",
+            "net_return_for_top_k": 0.024803424714675316
+          },
+          {
+            "candidate_rows": 2011,
+            "date": "2024-11-19",
+            "net_return_for_top_k": 0.03216284764109036
+          },
+          {
+            "candidate_rows": 2016,
+            "date": "2024-11-20",
+            "net_return_for_top_k": 0.007236797059292322
+          },
+          {
+            "candidate_rows": 2027,
+            "date": "2024-11-21",
+            "net_return_for_top_k": 0.001270350074813198
+          },
+          {
+            "candidate_rows": 2039,
+            "date": "2024-11-22",
+            "net_return_for_top_k": -0.003801055559491795
+          },
+          {
+            "candidate_rows": 2051,
+            "date": "2024-11-25",
+            "net_return_for_top_k": -0.01619728383970358
+          },
+          {
+            "candidate_rows": 2044,
+            "date": "2024-11-26",
+            "net_return_for_top_k": -0.023438432432811206
+          },
+          {
+            "candidate_rows": 2051,
+            "date": "2024-11-27",
+            "net_return_for_top_k": -0.035489359301346515
+          },
+          {
+            "candidate_rows": 2049,
+            "date": "2024-11-29",
+            "net_return_for_top_k": -0.01423276987343156
+          },
+          {
+            "candidate_rows": 2058,
+            "date": "2024-12-02",
+            "net_return_for_top_k": -0.03676854031752517
+          },
+          {
+            "candidate_rows": 2048,
+            "date": "2024-12-03",
+            "net_return_for_top_k": -0.02220368371525825
+          },
+          {
+            "candidate_rows": 2049,
+            "date": "2024-12-04",
+            "net_return_for_top_k": -0.04604606347762634
+          },
+          {
+            "candidate_rows": 2045,
+            "date": "2024-12-05",
+            "net_return_for_top_k": -0.02724852498520409
+          },
+          {
+            "candidate_rows": 2048,
+            "date": "2024-12-06",
+            "net_return_for_top_k": -0.059126997432054317
+          },
+          {
+            "candidate_rows": 2043,
+            "date": "2024-12-09",
+            "net_return_for_top_k": -0.018355436227147148
+          },
+          {
+            "candidate_rows": 2043,
+            "date": "2024-12-10",
+            "net_return_for_top_k": -0.017897940475964602
+          },
+          {
+            "candidate_rows": 2042,
+            "date": "2024-12-11",
+            "net_return_for_top_k": -0.025743503454317484
+          },
+          {
+            "candidate_rows": 2035,
+            "date": "2024-12-12",
+            "net_return_for_top_k": -0.03946231997883496
+          }
+        ]
+      },
+      "stage2_ranker": {
+        "1": [
+          {
+            "candidate_rows": 2,
+            "date": "2024-01-02",
+            "net_return_for_top_k": 0.12536976474685468
+          },
+          {
+            "candidate_rows": 3,
+            "date": "2024-01-03",
+            "net_return_for_top_k": -0.03830258719640419
+          },
+          {
+            "candidate_rows": 3,
+            "date": "2024-01-04",
+            "net_return_for_top_k": 0.006054749535501706
+          },
+          {
+            "candidate_rows": 1,
+            "date": "2024-01-05",
+            "net_return_for_top_k": -0.015706940585677454
+          },
+          {
+            "candidate_rows": 1,
+            "date": "2024-01-09",
+            "net_return_for_top_k": -0.06584878161777463
+          },
+          {
+            "candidate_rows": 1,
+            "date": "2024-01-10",
+            "net_return_for_top_k": -0.0442361780541588
+          },
+          {
+            "candidate_rows": 1,
+            "date": "2024-01-29",
+            "net_return_for_top_k": -0.019518025535048777
+          },
+          {
+            "candidate_rows": 2,
+            "date": "2024-02-01",
+            "net_return_for_top_k": -0.008700290935195865
+          },
+          {
+            "candidate_rows": 2,
+            "date": "2024-02-05",
+            "net_return_for_top_k": 0.08180193391719359
+          },
+          {
+            "candidate_rows": 2,
+            "date": "2024-02-06",
+            "net_return_for_top_k": -0.05850048098521693
+          },
+          {
+            "candidate_rows": 2,
+            "date": "2024-02-07",
+            "net_return_for_top_k": -0.03950789783366565
+          },
+          {
+            "candidate_rows": 3,
+            "date": "2024-02-08",
+            "net_return_for_top_k": -0.06146608063468965
+          },
+          {
+            "candidate_rows": 3,
+            "date": "2024-02-09",
+            "net_return_for_top_k": 0.09671305675545898
+          },
+          {
+            "candidate_rows": 3,
+            "date": "2024-02-12",
+            "net_return_for_top_k": 0.13531788688461233
+          },
+          {
+            "candidate_rows": 2,
+            "date": "2024-02-13",
+            "net_return_for_top_k": 0.027777261132116093
+          },
+          {
+            "candidate_rows": 12,
+            "date": "2024-02-14",
+            "net_return_for_top_k": 0.004076680300928404
+          },
+          {
+            "candidate_rows": 9,
+            "date": "2024-02-15",
+            "net_return_for_top_k": -0.03067692946040217
+          },
+          {
+            "candidate_rows": 14,
+            "date": "2024-02-16",
+            "net_return_for_top_k": -0.020081929865381175
+          },
+          {
+            "candidate_rows": 8,
+            "date": "2024-02-20",
+            "net_return_for_top_k": 0.11945308059910072
+          },
+          {
+            "candidate_rows": 1,
+            "date": "2024-02-21",
+            "net_return_for_top_k": 0.06485609646990587
+          },
+          {
+            "candidate_rows": 4,
+            "date": "2024-02-22",
+            "net_return_for_top_k": 0.0978824509172532
+          },
+          {
+            "candidate_rows": 3,
+            "date": "2024-02-23",
+            "net_return_for_top_k": 0.07804225420483513
+          },
+          {
+            "candidate_rows": 2,
+            "date": "2024-02-26",
+            "net_return_for_top_k": 0.03350241781943042
+          },
+          {
+            "candidate_rows": 2,
+            "date": "2024-02-29",
+            "net_return_for_top_k": 0.3482949986092915
+          },
+          {
+            "candidate_rows": 4,
+            "date": "2024-03-01",
+            "net_return_for_top_k": -0.06159157373028787
+          },
+          {
+            "candidate_rows": 6,
+            "date": "2024-03-04",
+            "net_return_for_top_k": 0.04399314103481415
+          },
+          {
+            "candidate_rows": 2,
+            "date": "2024-03-05",
+            "net_return_for_top_k": -0.05502830108027984
+          },
+          {
+            "candidate_rows": 3,
+            "date": "2024-03-06",
+            "net_return_for_top_k": -0.004011688037628525
+          },
+          {
+            "candidate_rows": 3,
+            "date": "2024-03-07",
+            "net_return_for_top_k": 0.014493289649252561
+          },
+          {
+            "candidate_rows": 2,
+            "date": "2024-03-08",
+            "net_return_for_top_k": -0.14923025105740856
+          },
+          {
+            "candidate_rows": 4,
+            "date": "2024-03-11",
+            "net_return_for_top_k": -0.07287384850342882
+          },
+          {
+            "candidate_rows": 2,
+            "date": "2024-03-12",
+            "net_return_for_top_k": -0.13480786424787994
+          },
+          {
+            "candidate_rows": 4,
+            "date": "2024-03-13",
+            "net_return_for_top_k": -0.0742042271631041
+          },
+          {
+            "candidate_rows": 3,
+            "date": "2024-03-14",
+            "net_return_for_top_k": 0.04673457774992521
+          },
+          {
+            "candidate_rows": 7,
+            "date": "2024-03-15",
+            "net_return_for_top_k": 0.082500658762425
+          },
+          {
+            "candidate_rows": 2,
+            "date": "2024-03-18",
+            "net_return_for_top_k": -0.12399025540970149
+          },
+          {
+            "candidate_rows": 1,
+            "date": "2024-03-19",
+            "net_return_for_top_k": -0.034972432817113264
+          },
+          {
+            "candidate_rows": 2,
+            "date": "2024-03-20",
+            "net_return_for_top_k": 0.16998215147365536
+          },
+          {
+            "candidate_rows": 1,
+            "date": "2024-03-21",
+            "net_return_for_top_k": 0.07574551517323136
+          },
+          {
+            "candidate_rows": 1,
+            "date": "2024-03-22",
+            "net_return_for_top_k": 0.33450388616467785
+          },
+          {
+            "candidate_rows": 2,
+            "date": "2024-03-25",
+            "net_return_for_top_k": 0.1503124661301516
+          },
+          {
+            "candidate_rows": 2,
+            "date": "2024-03-27",
+            "net_return_for_top_k": -0.09166938774025335
+          }
+        ],
+        "2": [
+          {
+            "candidate_rows": 1,
+            "date": "2024-03-28",
+            "net_return_for_top_k": -6.585492300537066e-05
+          },
+          {
+            "candidate_rows": 1,
+            "date": "2024-04-01",
+            "net_return_for_top_k": -0.020246615550950087
+          },
+          {
+            "candidate_rows": 7,
+            "date": "2024-04-02",
+            "net_return_for_top_k": 0.012148107126483532
+          },
+          {
+            "candidate_rows": 9,
+            "date": "2024-04-03",
+            "net_return_for_top_k": -0.027061673894555736
+          },
+          {
+            "candidate_rows": 4,
+            "date": "2024-04-04",
+            "net_return_for_top_k": -0.023890883152330317
+          },
+          {
+            "candidate_rows": 11,
+            "date": "2024-04-05",
+            "net_return_for_top_k": -0.012545294548023112
+          },
+          {
+            "candidate_rows": 2,
+            "date": "2024-04-08",
+            "net_return_for_top_k": -0.018410812394972498
+          },
+          {
+            "candidate_rows": 1,
+            "date": "2024-04-10",
+            "net_return_for_top_k": -0.020105229966756344
+          },
+          {
+            "candidate_rows": 2,
+            "date": "2024-04-12",
+            "net_return_for_top_k": -0.010426745349992439
+          },
+          {
+            "candidate_rows": 1,
+            "date": "2024-04-15",
+            "net_return_for_top_k": -0.006630782425863457
+          },
+          {
+            "candidate_rows": 2,
+            "date": "2024-04-16",
+            "net_return_for_top_k": 0.0034275356324446338
+          },
+          {
+            "candidate_rows": 1,
+            "date": "2024-04-30",
+            "net_return_for_top_k": -0.02981183711613178
+          },
+          {
+            "candidate_rows": 2,
+            "date": "2024-05-01",
+            "net_return_for_top_k": -0.020341643755505845
+          },
+          {
+            "candidate_rows": 1,
+            "date": "2024-05-02",
+            "net_return_for_top_k": -0.0028758684407655943
+          },
+          {
+            "candidate_rows": 3,
+            "date": "2024-05-03",
+            "net_return_for_top_k": -0.034771474441326854
+          },
+          {
+            "candidate_rows": 2,
+            "date": "2024-05-06",
+            "net_return_for_top_k": -0.07796632609868964
+          },
+          {
+            "candidate_rows": 2,
+            "date": "2024-05-08",
+            "net_return_for_top_k": 0.0756927839259467
+          },
+          {
+            "candidate_rows": 7,
+            "date": "2024-05-09",
+            "net_return_for_top_k": -0.007847032055109749
+          },
+          {
+            "candidate_rows": 1,
+            "date": "2024-05-10",
+            "net_return_for_top_k": -0.01817485283155784
+          },
+          {
+            "candidate_rows": 3,
+            "date": "2024-05-13",
+            "net_return_for_top_k": 0.014317938095920154
+          },
+          {
+            "candidate_rows": 11,
+            "date": "2024-05-14",
+            "net_return_for_top_k": -0.039546632273011736
+          },
+          {
+            "candidate_rows": 19,
+            "date": "2024-05-15",
+            "net_return_for_top_k": -0.035497166592098915
+          },
+          {
+            "candidate_rows": 6,
+            "date": "2024-05-16",
+            "net_return_for_top_k": -0.029753352545423883
+          },
+          {
+            "candidate_rows": 6,
+            "date": "2024-05-17",
+            "net_return_for_top_k": -0.050637447994232886
+          },
+          {
+            "candidate_rows": 8,
+            "date": "2024-05-20",
+            "net_return_for_top_k": 0.0047506828152960034
+          },
+          {
+            "candidate_rows": 11,
+            "date": "2024-05-21",
+            "net_return_for_top_k": 0.0003200032767573191
+          },
+          {
+            "candidate_rows": 20,
+            "date": "2024-05-22",
+            "net_return_for_top_k": -0.004389677423184324
+          },
+          {
+            "candidate_rows": 11,
+            "date": "2024-05-23",
+            "net_return_for_top_k": 0.000803002924363061
+          },
+          {
+            "candidate_rows": 9,
+            "date": "2024-05-24",
+            "net_return_for_top_k": -0.021180527448290333
+          },
+          {
+            "candidate_rows": 9,
+            "date": "2024-05-28",
+            "net_return_for_top_k": 0.007051439798396242
+          },
+          {
+            "candidate_rows": 1,
+            "date": "2024-05-29",
+            "net_return_for_top_k": -0.04050986561354031
+          },
+          {
+            "candidate_rows": 3,
+            "date": "2024-05-30",
+            "net_return_for_top_k": -0.019709573469180675
+          },
+          {
+            "candidate_rows": 14,
+            "date": "2024-05-31",
+            "net_return_for_top_k": -0.022278932063456568
+          },
+          {
+            "candidate_rows": 2,
+            "date": "2024-06-03",
+            "net_return_for_top_k": 0.1611368386361962
+          },
+          {
+            "candidate_rows": 2,
+            "date": "2024-06-04",
+            "net_return_for_top_k": 0.18069233735699863
+          },
+          {
+            "candidate_rows": 2,
+            "date": "2024-06-05",
+            "net_return_for_top_k": -0.0829500769417118
+          },
+          {
+            "candidate_rows": 3,
+            "date": "2024-06-06",
+            "net_return_for_top_k": -0.08029613024768367
+          },
+          {
+            "candidate_rows": 2,
+            "date": "2024-06-07",
+            "net_return_for_top_k": -0.0784029237195869
+          },
+          {
+            "candidate_rows": 1,
+            "date": "2024-06-10",
+            "net_return_for_top_k": -0.020238390019410413
+          },
+          {
+            "candidate_rows": 3,
+            "date": "2024-06-12",
+            "net_return_for_top_k": 0.06853743211799031
+          },
+          {
+            "candidate_rows": 3,
+            "date": "2024-06-13",
+            "net_return_for_top_k": 0.08145841561414147
+          },
+          {
+            "candidate_rows": 3,
+            "date": "2024-06-14",
+            "net_return_for_top_k": 0.01573270387538846
+          },
+          {
+            "candidate_rows": 3,
+            "date": "2024-06-17",
+            "net_return_for_top_k": -0.03587187041351503
+          },
+          {
+            "candidate_rows": 2,
+            "date": "2024-06-18",
+            "net_return_for_top_k": -0.09215391492272035
+          },
+          {
+            "candidate_rows": 5,
+            "date": "2024-06-20",
+            "net_return_for_top_k": -0.034619717336940845
+          },
+          {
+            "candidate_rows": 7,
+            "date": "2024-06-21",
+            "net_return_for_top_k": -0.028008756727516328
+          },
+          {
+            "candidate_rows": 3,
+            "date": "2024-06-24",
+            "net_return_for_top_k": -0.07523351329197996
+          }
+        ],
+        "3": [
+          {
+            "candidate_rows": 3,
+            "date": "2024-06-25",
+            "net_return_for_top_k": -0.07854757572564974
+          },
+          {
+            "candidate_rows": 2,
+            "date": "2024-06-26",
+            "net_return_for_top_k": -0.13533267969496277
+          },
+          {
+            "candidate_rows": 3,
+            "date": "2024-06-27",
+            "net_return_for_top_k": -0.059941541654662735
+          },
+          {
+            "candidate_rows": 3,
+            "date": "2024-06-28",
+            "net_return_for_top_k": -0.07982818150699429
+          },
+          {
+            "candidate_rows": 1,
+            "date": "2024-07-01",
+            "net_return_for_top_k": -0.20237239130763662
+          },
+          {
+            "candidate_rows": 1,
+            "date": "2024-07-02",
+            "net_return_for_top_k": -0.09298113153191201
+          },
+          {
+            "candidate_rows": 1,
+            "date": "2024-07-08",
+            "net_return_for_top_k": -0.24104484296709594
+          },
+          {
+            "candidate_rows": 3,
+            "date": "2024-07-09",
+            "net_return_for_top_k": -0.07972292181209761
+          },
+          {
+            "candidate_rows": 2,
+            "date": "2024-07-10",
+            "net_return_for_top_k": -0.10506046924298434
+          },
+          {
+            "candidate_rows": 1,
+            "date": "2024-07-11",
+            "net_return_for_top_k": -0.2811524330924404
+          },
+          {
+            "candidate_rows": 1,
+            "date": "2024-07-12",
+            "net_return_for_top_k": -0.2685184087797996
+          },
+          {
+            "candidate_rows": 5,
+            "date": "2024-07-15",
+            "net_return_for_top_k": -0.0661421079688574
+          },
+          {
+            "candidate_rows": 9,
+            "date": "2024-07-16",
+            "net_return_for_top_k": -0.06070714411037239
+          },
+          {
+            "candidate_rows": 4,
+            "date": "2024-07-17",
+            "net_return_for_top_k": -0.016368585072100234
+          },
+          {
+            "candidate_rows": 8,
+            "date": "2024-07-18",
+            "net_return_for_top_k": -0.03165511719652474
+          },
+          {
+            "candidate_rows": 17,
+            "date": "2024-07-19",
+            "net_return_for_top_k": 0.06295692219475005
+          },
+          {
+            "candidate_rows": 35,
+            "date": "2024-07-22",
+            "net_return_for_top_k": -0.020026535632304943
+          },
+          {
+            "candidate_rows": 34,
+            "date": "2024-07-23",
+            "net_return_for_top_k": -0.03547064861912615
+          },
+          {
+            "candidate_rows": 4,
+            "date": "2024-07-24",
+            "net_return_for_top_k": -0.029361426404980157
+          },
+          {
+            "candidate_rows": 15,
+            "date": "2024-07-25",
+            "net_return_for_top_k": -0.005711654003119082
+          },
+          {
+            "candidate_rows": 32,
+            "date": "2024-07-26",
+            "net_return_for_top_k": -0.04068419050144576
+          },
+          {
+            "candidate_rows": 9,
+            "date": "2024-07-29",
+            "net_return_for_top_k": -0.036030751988956555
+          },
+          {
+            "candidate_rows": 21,
+            "date": "2024-07-30",
+            "net_return_for_top_k": -0.01748085406770501
+          },
+          {
+            "candidate_rows": 154,
+            "date": "2024-07-31",
+            "net_return_for_top_k": -0.05590165233753617
+          },
+          {
+            "candidate_rows": 15,
+            "date": "2024-08-01",
+            "net_return_for_top_k": -0.05629660607629385
+          },
+          {
+            "candidate_rows": 14,
+            "date": "2024-08-02",
+            "net_return_for_top_k": 0.04442333703144465
+          },
+          {
+            "candidate_rows": 23,
+            "date": "2024-08-05",
+            "net_return_for_top_k": 0.06575469477448523
+          },
+          {
+            "candidate_rows": 74,
+            "date": "2024-08-06",
+            "net_return_for_top_k": -0.03265595471117784
+          },
+          {
+            "candidate_rows": 6,
+            "date": "2024-08-07",
+            "net_return_for_top_k": -0.062056125466112076
+          },
+          {
+            "candidate_rows": 34,
+            "date": "2024-08-08",
+            "net_return_for_top_k": -0.03048753732796745
+          },
+          {
+            "candidate_rows": 3,
+            "date": "2024-08-09",
+            "net_return_for_top_k": -0.11130389978307582
+          },
+          {
+            "candidate_rows": 5,
+            "date": "2024-08-12",
+            "net_return_for_top_k": 0.004252687839471326
+          },
+          {
+            "candidate_rows": 2,
+            "date": "2024-08-13",
+            "net_return_for_top_k": 0.03594411941618797
+          },
+          {
+            "candidate_rows": 2,
+            "date": "2024-08-14",
+            "net_return_for_top_k": -0.014483727485157138
+          },
+          {
+            "candidate_rows": 3,
+            "date": "2024-08-15",
+            "net_return_for_top_k": 0.023378145472542505
+          },
+          {
+            "candidate_rows": 2,
+            "date": "2024-08-16",
+            "net_return_for_top_k": 0.16784178158775853
+          },
+          {
+            "candidate_rows": 2,
+            "date": "2024-08-19",
+            "net_return_for_top_k": 0.16475279186870417
+          },
+          {
+            "candidate_rows": 2,
+            "date": "2024-08-20",
+            "net_return_for_top_k": 0.17936310966128288
+          },
+          {
+            "candidate_rows": 1,
+            "date": "2024-08-21",
+            "net_return_for_top_k": -0.0824403801653324
+          },
+          {
+            "candidate_rows": 2,
+            "date": "2024-08-22",
+            "net_return_for_top_k": -0.07668398559354145
+          },
+          {
+            "candidate_rows": 10,
+            "date": "2024-08-23",
+            "net_return_for_top_k": -0.030722110399085477
+          },
+          {
+            "candidate_rows": 9,
+            "date": "2024-08-27",
+            "net_return_for_top_k": -0.04518893513056734
+          },
+          {
+            "candidate_rows": 2,
+            "date": "2024-08-28",
+            "net_return_for_top_k": 0.02090288918903538
+          },
+          {
+            "candidate_rows": 20,
+            "date": "2024-08-29",
+            "net_return_for_top_k": -0.02782651450833451
+          },
+          {
+            "candidate_rows": 144,
+            "date": "2024-08-30",
+            "net_return_for_top_k": -0.006553309664609342
+          },
+          {
+            "candidate_rows": 17,
+            "date": "2024-09-03",
+            "net_return_for_top_k": 0.016946362493620314
+          },
+          {
+            "candidate_rows": 25,
+            "date": "2024-09-04",
+            "net_return_for_top_k": 0.002805356069608256
+          },
+          {
+            "candidate_rows": 16,
+            "date": "2024-09-05",
+            "net_return_for_top_k": -0.025475995498626135
+          },
+          {
+            "candidate_rows": 4,
+            "date": "2024-09-06",
+            "net_return_for_top_k": 0.008931977236975364
+          },
+          {
+            "candidate_rows": 137,
+            "date": "2024-09-09",
+            "net_return_for_top_k": -0.03886299408455187
+          },
+          {
+            "candidate_rows": 15,
+            "date": "2024-09-10",
+            "net_return_for_top_k": 0.05743561251194949
+          },
+          {
+            "candidate_rows": 41,
+            "date": "2024-09-11",
+            "net_return_for_top_k": 0.005516616757664616
+          },
+          {
+            "candidate_rows": 4,
+            "date": "2024-09-12",
+            "net_return_for_top_k": 0.01160891685901591
+          },
+          {
+            "candidate_rows": 3,
+            "date": "2024-09-13",
+            "net_return_for_top_k": 0.06577925623197105
+          },
+          {
+            "candidate_rows": 5,
+            "date": "2024-09-16",
+            "net_return_for_top_k": -0.019654309223904654
+          },
+          {
+            "candidate_rows": 4,
+            "date": "2024-09-17",
+            "net_return_for_top_k": 0.0050972795930136205
+          },
+          {
+            "candidate_rows": 6,
+            "date": "2024-09-18",
+            "net_return_for_top_k": 0.012654982023843474
+          }
+        ],
+        "4": [
+          {
+            "candidate_rows": 2,
+            "date": "2024-09-19",
+            "net_return_for_top_k": -0.021807426554595943
+          },
+          {
+            "candidate_rows": 6,
+            "date": "2024-09-20",
+            "net_return_for_top_k": 0.012637277869904784
+          },
+          {
+            "candidate_rows": 1,
+            "date": "2024-09-23",
+            "net_return_for_top_k": -0.05565527594081754
+          },
+          {
+            "candidate_rows": 2,
+            "date": "2024-10-04",
+            "net_return_for_top_k": -0.008207518849311257
+          },
+          {
+            "candidate_rows": 1,
+            "date": "2024-10-07",
+            "net_return_for_top_k": -0.026593966103268918
+          },
+          {
+            "candidate_rows": 3,
+            "date": "2024-10-08",
+            "net_return_for_top_k": 0.03480956500086877
+          },
+          {
+            "candidate_rows": 5,
+            "date": "2024-10-09",
+            "net_return_for_top_k": -0.022909031315916262
+          },
+          {
+            "candidate_rows": 3,
+            "date": "2024-10-10",
+            "net_return_for_top_k": 0.005930085918997833
+          },
+          {
+            "candidate_rows": 4,
+            "date": "2024-10-11",
+            "net_return_for_top_k": -0.0019018244421854513
+          },
+          {
+            "candidate_rows": 2,
+            "date": "2024-10-15",
+            "net_return_for_top_k": -0.04746378765482656
+          },
+          {
+            "candidate_rows": 2,
+            "date": "2024-10-16",
+            "net_return_for_top_k": -0.023814272238747825
+          },
+          {
+            "candidate_rows": 1,
+            "date": "2024-10-17",
+            "net_return_for_top_k": -0.015218829001038325
+          },
+          {
+            "candidate_rows": 1,
+            "date": "2024-10-18",
+            "net_return_for_top_k": 0.13262906389882678
+          },
+          {
+            "candidate_rows": 2,
+            "date": "2024-10-21",
+            "net_return_for_top_k": -0.07381510270919905
+          },
+          {
+            "candidate_rows": 2,
+            "date": "2024-10-22",
+            "net_return_for_top_k": -0.05300350493077166
+          },
+          {
+            "candidate_rows": 2,
+            "date": "2024-10-23",
+            "net_return_for_top_k": -0.05108239269848691
+          },
+          {
+            "candidate_rows": 3,
+            "date": "2024-10-28",
+            "net_return_for_top_k": 0.010626521667738772
+          },
+          {
+            "candidate_rows": 4,
+            "date": "2024-10-29",
+            "net_return_for_top_k": -0.0265484618706171
+          },
+          {
+            "candidate_rows": 4,
+            "date": "2024-10-30",
+            "net_return_for_top_k": -0.01860163686825564
+          },
+          {
+            "candidate_rows": 2,
+            "date": "2024-10-31",
+            "net_return_for_top_k": -0.029135149080736
+          },
+          {
+            "candidate_rows": 2,
+            "date": "2024-11-01",
+            "net_return_for_top_k": -0.026147295279347726
+          },
+          {
+            "candidate_rows": 1,
+            "date": "2024-11-04",
+            "net_return_for_top_k": -0.0556456814327877
+          },
+          {
+            "candidate_rows": 27,
+            "date": "2024-11-05",
+            "net_return_for_top_k": -0.0033929823257145665
+          },
+          {
+            "candidate_rows": 16,
+            "date": "2024-11-06",
+            "net_return_for_top_k": -0.015175962722399561
+          },
+          {
+            "candidate_rows": 10,
+            "date": "2024-11-07",
+            "net_return_for_top_k": -0.00254179492904798
+          },
+          {
+            "candidate_rows": 5,
+            "date": "2024-11-08",
+            "net_return_for_top_k": -0.0018206266180570863
+          },
+          {
+            "candidate_rows": 1,
+            "date": "2024-11-11",
+            "net_return_for_top_k": 0.07486174624564135
+          },
+          {
+            "candidate_rows": 3,
+            "date": "2024-11-12",
+            "net_return_for_top_k": 0.016119421609095557
+          },
+          {
+            "candidate_rows": 1,
+            "date": "2024-11-15",
+            "net_return_for_top_k": 0.036789376975886245
+          },
+          {
+            "candidate_rows": 1,
+            "date": "2024-11-21",
+            "net_return_for_top_k": -0.0009995002498749406
+          },
+          {
+            "candidate_rows": 1,
+            "date": "2024-11-22",
+            "net_return_for_top_k": 0.0035331698941818424
+          },
+          {
+            "candidate_rows": 3,
+            "date": "2024-11-25",
+            "net_return_for_top_k": -0.00526043149713377
+          },
+          {
+            "candidate_rows": 2,
+            "date": "2024-11-26",
+            "net_return_for_top_k": -0.022505320610120172
+          },
+          {
+            "candidate_rows": 1,
+            "date": "2024-11-27",
+            "net_return_for_top_k": -0.01759920643907642
+          },
+          {
+            "candidate_rows": 2,
+            "date": "2024-12-02",
+            "net_return_for_top_k": -0.034974327112652415
+          },
+          {
+            "candidate_rows": 2,
+            "date": "2024-12-04",
+            "net_return_for_top_k": -0.06049157977823105
+          },
+          {
+            "candidate_rows": 1,
+            "date": "2024-12-06",
+            "net_return_for_top_k": -0.09236011339543881
+          },
+          {
+            "candidate_rows": 3,
+            "date": "2024-12-11",
+            "net_return_for_top_k": -0.03776532571814972
+          },
+          {
+            "candidate_rows": 1,
+            "date": "2024-12-12",
+            "net_return_for_top_k": -0.04417609186517102
+          }
+        ]
+      }
+    },
+    "fold_metrics": [
+      {
+        "brier_score": 0.17095944291263035,
+        "log_loss": 0.526090969548551,
+        "passed_trades_avg_return": 0.016685535313982175,
+        "passed_trades_hit_rate": 0.26618705035971224,
+        "passed_trades_recall": 0.0014219284424118982,
+        "roc_auc": 0.5344800736203871,
+        "split_number": 1
+      },
+      {
+        "brier_score": 0.1397592325137098,
+        "log_loss": 0.4543447017782672,
+        "passed_trades_avg_return": -0.011934524351874256,
+        "passed_trades_hit_rate": 0.12931034482758622,
+        "passed_trades_recall": 0.0015495067403543206,
+        "roc_auc": 0.49563798408609816,
+        "split_number": 2
+      },
+      {
+        "brier_score": 0.18579890001944116,
+        "log_loss": 0.5592281012600555,
+        "passed_trades_avg_return": -0.00815216448881503,
+        "passed_trades_hit_rate": 0.20821114369501467,
+        "passed_trades_recall": 0.007291024851098788,
+        "roc_auc": 0.517453517052084,
+        "split_number": 3
+      },
+      {
+        "brier_score": 0.16733513559101104,
+        "log_loss": 0.5176368130352029,
+        "passed_trades_avg_return": -0.008537503108452303,
+        "passed_trades_hit_rate": 0.24444444444444444,
+        "passed_trades_recall": 0.0012819018762382007,
+        "roc_auc": 0.5288877900237874,
+        "split_number": 4
+      }
+    ],
+    "gate_threshold_sensitivity": [
+      {
+        "actual_success_rate": 0.20470896010464357,
+        "gate_threshold": 0.3,
+        "survival_rate": 0.00319794193926211,
+        "surviving_rows": 1529
+      },
+      {
+        "actual_success_rate": 0.15328467153284672,
+        "gate_threshold": 0.35,
+        "survival_rate": 0.00028653894419810927,
+        "surviving_rows": 137
+      },
+      {
+        "actual_success_rate": 0.14705882352941177,
+        "gate_threshold": 0.4,
+        "survival_rate": 0.00014222370952898854,
+        "surviving_rows": 68
+      },
+      {
+        "actual_success_rate": 0.07317073170731707,
+        "gate_threshold": 0.45,
+        "survival_rate": 8.575253074541957e-05,
+        "surviving_rows": 41
+      },
+      {
+        "actual_success_rate": 0.037037037037037035,
+        "gate_threshold": 0.5,
+        "survival_rate": 5.647117878356898e-05,
+        "surviving_rows": 27
+      },
+      {
+        "actual_success_rate": 0.05,
+        "gate_threshold": 0.55,
+        "survival_rate": 4.183050280264369e-05,
+        "surviving_rows": 20
+      },
+      {
+        "actual_success_rate": 0.08333333333333333,
+        "gate_threshold": 0.6,
+        "survival_rate": 2.5098301681586212e-05,
+        "surviving_rows": 12
+      }
+    ],
+    "skipped_splits": [],
+    "split_diagnostics": [
+      {
+        "gate_survival_rate": 0.0011636180988656816,
+        "split_number": 1,
+        "surviving_test_rows": 139,
+        "test_end_date": "2024-03-27T00:00:00",
+        "test_positive_label_rate": 0.21783098237830145,
+        "test_rows": 119455,
+        "test_start_date": "2024-01-02T00:00:00",
+        "train_end_date": "2023-11-22T00:00:00",
+        "train_positive_label_rate": 0.1909181785595811,
+        "train_rows": 449161,
+        "train_start_date": "2023-01-03T00:00:00"
+      },
+      {
+        "gate_survival_rate": 0.0019671686338353007,
+        "split_number": 2,
+        "surviving_test_rows": 232,
+        "test_end_date": "2024-06-24T00:00:00",
+        "test_positive_label_rate": 0.16416530999864334,
+        "test_rows": 117936,
+        "test_start_date": "2024-03-28T00:00:00",
+        "train_end_date": "2024-02-21T00:00:00",
+        "train_positive_label_rate": 0.20179241972629702,
+        "train_rows": 495866,
+        "train_start_date": "2023-02-23T00:00:00"
+      },
+      {
+        "gate_survival_rate": 0.008554370003679299,
+        "split_number": 3,
+        "surviving_test_rows": 1023,
+        "test_end_date": "2024-09-18T00:00:00",
+        "test_positive_label_rate": 0.24428872462119944,
+        "test_rows": 119588,
+        "test_start_date": "2024-06-25T00:00:00",
+        "train_end_date": "2024-05-16T00:00:00",
+        "train_positive_label_rate": 0.21445502902331978,
+        "train_rows": 494430,
+        "train_start_date": "2023-05-19T00:00:00"
+      },
+      {
+        "gate_survival_rate": 0.0011144038764745214,
+        "split_number": 4,
+        "surviving_test_rows": 135,
+        "test_end_date": "2024-12-12T00:00:00",
+        "test_positive_label_rate": 0.21250443697839708,
+        "test_rows": 121141,
+        "test_start_date": "2024-09-19T00:00:00",
+        "train_end_date": "2024-08-13T00:00:00",
+        "train_positive_label_rate": 0.2155502921590953,
+        "train_rows": 492711,
+        "train_start_date": "2023-08-16T00:00:00"
+      }
+    ],
+    "stage1_calibration_bins": [
+      {
+        "actual_success_rate": 0.10807811806480248,
+        "mean_predicted_probability": 0.07154511648158327,
+        "probability_bin": "(-0.001, 0.1]",
+        "row_count": 4506
+      },
+      {
+        "actual_success_rate": 0.1996960102560118,
+        "mean_predicted_probability": 0.17491058466381235,
+        "probability_bin": "(0.1, 0.2]",
+        "row_count": 205928
+      },
+      {
+        "actual_success_rate": 0.21947948015644902,
+        "mean_predicted_probability": 0.22610336105565032,
+        "probability_bin": "(0.2, 0.3]",
+        "row_count": 266157
+      },
+      {
+        "actual_success_rate": 0.20739219712525667,
+        "mean_predicted_probability": 0.31523662230199767,
+        "probability_bin": "(0.3, 0.4]",
+        "row_count": 1461
+      },
+      {
+        "actual_success_rate": 0.21951219512195122,
+        "mean_predicted_probability": 0.4393678131669949,
+        "probability_bin": "(0.4, 0.5]",
+        "row_count": 41
+      },
+      {
+        "actual_success_rate": 0.0,
+        "mean_predicted_probability": 0.5516385206982203,
+        "probability_bin": "(0.5, 0.6]",
+        "row_count": 15
+      },
+      {
+        "actual_success_rate": 0.0,
+        "mean_predicted_probability": 0.6331065601510559,
+        "probability_bin": "(0.6, 0.7]",
+        "row_count": 4
+      },
+      {
+        "actual_success_rate": 0.0,
+        "mean_predicted_probability": 0.7604062604148165,
+        "probability_bin": "(0.7, 0.8]",
+        "row_count": 2
+      },
+      {
+        "actual_success_rate": 0.5,
+        "mean_predicted_probability": 0.8832599957104421,
+        "probability_bin": "(0.8, 0.9]",
+        "row_count": 2
+      },
+      {
+        "actual_success_rate": 0.0,
+        "mean_predicted_probability": 0.9324304076173925,
+        "probability_bin": "(0.9, 1.0]",
+        "row_count": 4
+      }
+    ],
+    "strategy_metrics": [
+      {
+        "fixed_horizon_ic_information_ratio": -0.19104401330307902,
+        "fixed_horizon_positive_ic_day_rate": 0.4117647058823529,
+        "hit_rate": 0.27927927927927926,
+        "ic_information_ratio": 0.004719922531534955,
+        "mean_daily_fixed_horizon_ndcg_for_top_10": 0.7855478693679613,
+        "mean_daily_fixed_horizon_ndcg_for_top_15": 0.78978466920809,
+        "mean_daily_fixed_horizon_ndcg_for_top_5": 0.7587792461619131,
+        "mean_daily_fixed_horizon_return_for_top_10": -0.01107204824135233,
+        "mean_daily_fixed_horizon_return_for_top_15": -0.01216436939382289,
+        "mean_daily_fixed_horizon_return_for_top_5": -0.01113039533849503,
+        "mean_daily_fixed_horizon_spearman_ic": -0.15508658008658008,
+        "mean_daily_ndcg_for_top_10": 0.8050951625136106,
+        "mean_daily_ndcg_for_top_15": 0.814237336980089,
+        "mean_daily_ndcg_for_top_5": 0.7806431572579371,
+        "mean_daily_net_return_for_top_10": 0.020477584406821635,
+        "mean_daily_net_return_for_top_15": 0.020913564097743188,
+        "mean_daily_net_return_for_top_5": 0.022201961084283683,
+        "mean_daily_precision_for_top_10": 0.29350907029478457,
+        "mean_daily_precision_for_top_15": 0.2929421768707483,
+        "mean_daily_precision_for_top_5": 0.29404761904761906,
+        "mean_daily_spearman_ic": 0.003975436328377511,
+        "mean_net_return_per_trade": 0.019999430251783513,
+        "positive_ic_day_rate": 0.47058823529411764,
+        "split_number": 1,
+        "std_daily_fixed_horizon_spearman_ic": 0.8117845589882223,
+        "std_daily_net_return_for_top_10": 0.1061235755517939,
+        "std_daily_net_return_for_top_15": 0.10612017437414992,
+        "std_daily_net_return_for_top_5": 0.10691852228019931,
+        "std_daily_spearman_ic": 0.8422672833752356,
+        "strategy": "stage2_ranker",
+        "top_k": 5.0,
+        "trade_count": 111
+      },
+      {
+        "fixed_horizon_ic_information_ratio": 0.3796508695053396,
+        "fixed_horizon_positive_ic_day_rate": 0.5833333333333334,
+        "hit_rate": 0.26666666666666666,
+        "ic_information_ratio": 0.6695236579308911,
+        "mean_daily_fixed_horizon_ndcg_for_top_10": 0.46127117723187466,
+        "mean_daily_fixed_horizon_ndcg_for_top_15": 0.4582829832294967,
+        "mean_daily_fixed_horizon_ndcg_for_top_5": 0.45075491846977883,
+        "mean_daily_fixed_horizon_return_for_top_10": 0.0023940341645545607,
+        "mean_daily_fixed_horizon_return_for_top_15": 0.0022417003519776494,
+        "mean_daily_fixed_horizon_return_for_top_5": -0.0008565926614796629,
+        "mean_daily_fixed_horizon_spearman_ic": 0.021964503629981626,
+        "mean_daily_ndcg_for_top_10": 0.4509580248645551,
+        "mean_daily_ndcg_for_top_15": 0.4527932400861715,
+        "mean_daily_ndcg_for_top_5": 0.4408035285227401,
+        "mean_daily_net_return_for_top_10": 0.004139453002810919,
+        "mean_daily_net_return_for_top_15": 0.002731975000680744,
+        "mean_daily_net_return_for_top_5": 0.00740838747912993,
+        "mean_daily_precision_for_top_10": 0.255,
+        "mean_daily_precision_for_top_15": 0.2411111111111111,
+        "mean_daily_precision_for_top_5": 0.26666666666666666,
+        "mean_daily_spearman_ic": 0.06448305420124982,
+        "mean_net_return_per_trade": 0.00740838747912993,
+        "positive_ic_day_rate": 0.7,
+        "split_number": 1,
+        "std_daily_fixed_horizon_spearman_ic": 0.05785447998209498,
+        "std_daily_net_return_for_top_10": 0.032529780079534824,
+        "std_daily_net_return_for_top_15": 0.026059767984699687,
+        "std_daily_net_return_for_top_5": 0.04389230098204637,
+        "std_daily_spearman_ic": 0.0963118381813863,
+        "strategy": "stage1_probability",
+        "top_k": 5.0,
+        "trade_count": 300
+      },
+      {
+        "hit_rate": 0.21800800951758575,
+        "mean_net_return_per_trade": 0.00180007461426689,
+        "split_number": 1,
+        "strategy": "equal_weight_signals",
+        "trade_count": 119358
+      },
+      {
+        "fixed_horizon_ic_information_ratio": 0.1272260062438963,
+        "fixed_horizon_positive_ic_day_rate": 0.5263157894736842,
+        "hit_rate": 0.12244897959183673,
+        "ic_information_ratio": 0.10900365329809039,
+        "mean_daily_fixed_horizon_ndcg_for_top_10": 0.8071177934898456,
+        "mean_daily_fixed_horizon_ndcg_for_top_15": 0.8224206180283946,
+        "mean_daily_fixed_horizon_ndcg_for_top_5": 0.7427165038819952,
+        "mean_daily_fixed_horizon_return_for_top_10": -0.03046621688234607,
+        "mean_daily_fixed_horizon_return_for_top_15": -0.02978269657789585,
+        "mean_daily_fixed_horizon_return_for_top_5": -0.031160060346555715,
+        "mean_daily_fixed_horizon_spearman_ic": 0.09241241214925426,
+        "mean_daily_ndcg_for_top_10": 0.8041536887605766,
+        "mean_daily_ndcg_for_top_15": 0.8201684588929519,
+        "mean_daily_ndcg_for_top_5": 0.756678664167724,
+        "mean_daily_net_return_for_top_10": -0.010969811682446838,
+        "mean_daily_net_return_for_top_15": -0.010189462950454637,
+        "mean_daily_net_return_for_top_5": -0.010561322867929764,
+        "mean_daily_precision_for_top_10": 0.11765450861195541,
+        "mean_daily_precision_for_top_15": 0.12146771668048263,
+        "mean_daily_precision_for_top_5": 0.11702127659574468,
+        "mean_daily_spearman_ic": 0.07943503864556498,
+        "mean_net_return_per_trade": -0.012330624598938557,
+        "positive_ic_day_rate": 0.5526315789473685,
+        "split_number": 2,
+        "std_daily_fixed_horizon_spearman_ic": 0.726364167810917,
+        "std_daily_net_return_for_top_10": 0.05280781147552109,
+        "std_daily_net_return_for_top_15": 0.05276945797648516,
+        "std_daily_net_return_for_top_5": 0.053048470290755434,
+        "std_daily_spearman_ic": 0.728737397712124,
+        "strategy": "stage2_ranker",
+        "top_k": 5.0,
+        "trade_count": 147
+      },
+      {
+        "fixed_horizon_ic_information_ratio": 0.3598049509286482,
+        "fixed_horizon_positive_ic_day_rate": 0.6666666666666666,
+        "hit_rate": 0.14,
+        "ic_information_ratio": 1.1354947028068678,
+        "mean_daily_fixed_horizon_ndcg_for_top_10": 0.4775792482122012,
+        "mean_daily_fixed_horizon_ndcg_for_top_15": 0.4855014369340689,
+        "mean_daily_fixed_horizon_ndcg_for_top_5": 0.46033337659531526,
+        "mean_daily_fixed_horizon_return_for_top_10": -0.014646875249043996,
+        "mean_daily_fixed_horizon_return_for_top_15": -0.011257426321985755,
+        "mean_daily_fixed_horizon_return_for_top_5": -0.021234809608522774,
+        "mean_daily_fixed_horizon_spearman_ic": 0.03167228749783699,
+        "mean_daily_ndcg_for_top_10": 0.5033206552510838,
+        "mean_daily_ndcg_for_top_15": 0.5113917034488874,
+        "mean_daily_ndcg_for_top_5": 0.47537122052760467,
+        "mean_daily_net_return_for_top_10": -0.00489774464741795,
+        "mean_daily_net_return_for_top_15": -0.005372680777226397,
+        "mean_daily_net_return_for_top_5": -0.010623476726322889,
+        "mean_daily_precision_for_top_10": 0.1733333333333333,
+        "mean_daily_precision_for_top_15": 0.1733333333333333,
+        "mean_daily_precision_for_top_5": 0.13999999999999999,
+        "mean_daily_spearman_ic": 0.1644687532531718,
+        "mean_net_return_per_trade": -0.010623476726322889,
+        "positive_ic_day_rate": 0.8666666666666667,
+        "split_number": 2,
+        "std_daily_fixed_horizon_spearman_ic": 0.08802626927753926,
+        "std_daily_net_return_for_top_10": 0.02046937917618991,
+        "std_daily_net_return_for_top_15": 0.01676605571923514,
+        "std_daily_net_return_for_top_5": 0.026095487787055803,
+        "std_daily_spearman_ic": 0.14484325893076905,
+        "strategy": "stage1_probability",
+        "top_k": 5.0,
+        "trade_count": 300
+      },
+      {
+        "hit_rate": 0.16430741551674388,
+        "mean_net_return_per_trade": -0.004688772036608533,
+        "split_number": 2,
+        "strategy": "equal_weight_signals",
+        "trade_count": 117834
+      },
+      {
+        "fixed_horizon_ic_information_ratio": -0.058276675623578474,
+        "fixed_horizon_positive_ic_day_rate": 0.43137254901960786,
+        "hit_rate": 0.19534883720930232,
+        "ic_information_ratio": -0.04071577033889248,
+        "mean_daily_fixed_horizon_ndcg_for_top_10": 0.7116557044389391,
+        "mean_daily_fixed_horizon_ndcg_for_top_15": 0.7390261397130785,
+        "mean_daily_fixed_horizon_ndcg_for_top_5": 0.653291703288958,
+        "mean_daily_fixed_horizon_return_for_top_10": -0.05273940268931998,
+        "mean_daily_fixed_horizon_return_for_top_15": -0.05252648973730231,
+        "mean_daily_fixed_horizon_return_for_top_5": -0.05561393745952333,
+        "mean_daily_fixed_horizon_spearman_ic": -0.038549092077930086,
+        "mean_daily_ndcg_for_top_10": 0.6884295729688794,
+        "mean_daily_ndcg_for_top_15": 0.7246577717843847,
+        "mean_daily_ndcg_for_top_5": 0.629921630092002,
+        "mean_daily_net_return_for_top_10": -0.029046151462735932,
+        "mean_daily_net_return_for_top_15": -0.027816283831396445,
+        "mean_daily_net_return_for_top_5": -0.03060331213200486,
+        "mean_daily_precision_for_top_10": 0.21613060428849903,
+        "mean_daily_precision_for_top_15": 0.21713311055416318,
+        "mean_daily_precision_for_top_5": 0.20292397660818712,
+        "mean_daily_spearman_ic": -0.0254122559166672,
+        "mean_net_return_per_trade": -0.01906591544195107,
+        "positive_ic_day_rate": 0.4117647058823529,
+        "split_number": 3,
+        "std_daily_fixed_horizon_spearman_ic": 0.6614840614266834,
+        "std_daily_net_return_for_top_10": 0.08571224764367241,
+        "std_daily_net_return_for_top_15": 0.0856684296641695,
+        "std_daily_net_return_for_top_5": 0.08707661795655672,
+        "std_daily_spearman_ic": 0.6241379127829721,
+        "strategy": "stage2_ranker",
+        "top_k": 5.0,
+        "trade_count": 215
+      },
+      {
+        "fixed_horizon_ic_information_ratio": -0.22361795865053954,
+        "fixed_horizon_positive_ic_day_rate": 0.4166666666666667,
+        "hit_rate": 0.20666666666666667,
+        "ic_information_ratio": 0.3218942372533782,
+        "mean_daily_fixed_horizon_ndcg_for_top_10": 0.41173441698258956,
+        "mean_daily_fixed_horizon_ndcg_for_top_15": 0.42596978025582527,
+        "mean_daily_fixed_horizon_ndcg_for_top_5": 0.3882049273460677,
+        "mean_daily_fixed_horizon_return_for_top_10": -0.009941874145934369,
+        "mean_daily_fixed_horizon_return_for_top_15": -0.004548657562300533,
+        "mean_daily_fixed_horizon_return_for_top_5": -0.023191123476701624,
+        "mean_daily_fixed_horizon_spearman_ic": -0.028314094576124493,
+        "mean_daily_ndcg_for_top_10": 0.44736716544356564,
+        "mean_daily_ndcg_for_top_15": 0.4613002806201275,
+        "mean_daily_ndcg_for_top_5": 0.43345801944767476,
+        "mean_daily_net_return_for_top_10": -0.006123762482509145,
+        "mean_daily_net_return_for_top_15": -0.0023675333055324156,
+        "mean_daily_net_return_for_top_5": -0.012642017676603338,
+        "mean_daily_precision_for_top_10": 0.21499999999999994,
+        "mean_daily_precision_for_top_15": 0.2322222222222222,
+        "mean_daily_precision_for_top_5": 0.20666666666666667,
+        "mean_daily_spearman_ic": 0.06584542002621133,
+        "mean_net_return_per_trade": -0.01264201767660334,
+        "positive_ic_day_rate": 0.5333333333333333,
+        "split_number": 3,
+        "std_daily_fixed_horizon_spearman_ic": 0.12661816048670999,
+        "std_daily_net_return_for_top_10": 0.024398314602828104,
+        "std_daily_net_return_for_top_15": 0.02189305243274993,
+        "std_daily_net_return_for_top_5": 0.038259277703180126,
+        "std_daily_spearman_ic": 0.20455606968316517,
+        "strategy": "stage1_probability",
+        "top_k": 5.0,
+        "trade_count": 300
+      },
+      {
+        "hit_rate": 0.24450544851944225,
+        "mean_net_return_per_trade": 0.006907493966831292,
+        "split_number": 3,
+        "strategy": "equal_weight_signals",
+        "trade_count": 119482
+      },
+      {
+        "fixed_horizon_ic_information_ratio": 0.018575606120825778,
+        "fixed_horizon_positive_ic_day_rate": 0.4444444444444444,
+        "hit_rate": 0.1875,
+        "ic_information_ratio": 0.16145868635436883,
+        "mean_daily_fixed_horizon_ndcg_for_top_10": 0.8142978569640404,
+        "mean_daily_fixed_horizon_ndcg_for_top_15": 0.8217675088331126,
+        "mean_daily_fixed_horizon_ndcg_for_top_5": 0.8034672711901302,
+        "mean_daily_fixed_horizon_return_for_top_10": -0.03982933130202012,
+        "mean_daily_fixed_horizon_return_for_top_15": -0.03915407575502892,
+        "mean_daily_fixed_horizon_return_for_top_5": -0.039040214415487745,
+        "mean_daily_fixed_horizon_spearman_ic": 0.014808382128643579,
+        "mean_daily_ndcg_for_top_10": 0.8287533693636407,
+        "mean_daily_ndcg_for_top_15": 0.8323959407249576,
+        "mean_daily_ndcg_for_top_5": 0.8149862943303581,
+        "mean_daily_net_return_for_top_10": -0.014172479391769596,
+        "mean_daily_net_return_for_top_15": -0.01448338373935992,
+        "mean_daily_net_return_for_top_5": -0.014581492080790653,
+        "mean_daily_precision_for_top_10": 0.18034188034188034,
+        "mean_daily_precision_for_top_15": 0.17863247863247864,
+        "mean_daily_precision_for_top_5": 0.17094017094017092,
+        "mean_daily_spearman_ic": 0.12458513406225824,
+        "mean_net_return_per_trade": -0.012980983795761713,
+        "positive_ic_day_rate": 0.5185185185185185,
+        "split_number": 4,
+        "std_daily_fixed_horizon_spearman_ic": 0.7971950972862937,
+        "std_daily_net_return_for_top_10": 0.039903689000990325,
+        "std_daily_net_return_for_top_15": 0.03983703989746128,
+        "std_daily_net_return_for_top_5": 0.039871451926287035,
+        "std_daily_spearman_ic": 0.7716223690115954,
+        "strategy": "stage2_ranker",
+        "top_k": 5.0,
+        "trade_count": 96
+      },
+      {
+        "fixed_horizon_ic_information_ratio": -0.029107702434734015,
+        "fixed_horizon_positive_ic_day_rate": 0.5,
+        "hit_rate": 0.19,
+        "ic_information_ratio": 0.8982809356334123,
+        "mean_daily_fixed_horizon_ndcg_for_top_10": 0.4553181247278974,
+        "mean_daily_fixed_horizon_ndcg_for_top_15": 0.4627791650663577,
+        "mean_daily_fixed_horizon_ndcg_for_top_5": 0.43697724539711513,
+        "mean_daily_fixed_horizon_return_for_top_10": -0.007251553725238282,
+        "mean_daily_fixed_horizon_return_for_top_15": -0.0057501913038782715,
+        "mean_daily_fixed_horizon_return_for_top_5": -0.013893441489648377,
+        "mean_daily_fixed_horizon_spearman_ic": -0.0025401876706351023,
+        "mean_daily_ndcg_for_top_10": 0.4760541140859972,
+        "mean_daily_ndcg_for_top_15": 0.4910190846640486,
+        "mean_daily_ndcg_for_top_5": 0.4429830560501215,
+        "mean_daily_net_return_for_top_10": -0.004465113895917568,
+        "mean_daily_net_return_for_top_15": -0.0033053450003109794,
+        "mean_daily_net_return_for_top_5": -0.009758515146019013,
+        "mean_daily_precision_for_top_10": 0.23833333333333334,
+        "mean_daily_precision_for_top_15": 0.23999999999999996,
+        "mean_daily_precision_for_top_5": 0.19,
+        "mean_daily_spearman_ic": 0.14466162025363033,
+        "mean_net_return_per_trade": -0.00975851514601901,
+        "positive_ic_day_rate": 0.8166666666666667,
+        "split_number": 4,
+        "std_daily_fixed_horizon_spearman_ic": 0.08726857354443456,
+        "std_daily_net_return_for_top_10": 0.01754642745379693,
+        "std_daily_net_return_for_top_15": 0.016797503357244805,
+        "std_daily_net_return_for_top_5": 0.02257938097378392,
+        "std_daily_spearman_ic": 0.16104273675988,
+        "strategy": "stage1_probability",
+        "top_k": 5.0,
+        "trade_count": 300
+      },
+      {
+        "hit_rate": 0.2126554045681715,
+        "mean_net_return_per_trade": 0.0007685749253360432,
+        "split_number": 4,
+        "strategy": "equal_weight_signals",
+        "trade_count": 121055
+      }
+    ]
+  },
+  "features": {
+    "stage1_classifier": [
+      "close_to_ema_21_pct",
+      "close_to_ema_8_pct",
+      "close_to_sma_20_pct",
+      "close_to_sma_50_pct",
+      "distance_from_prior_10d_high",
+      "distance_from_prior_10d_low",
+      "distance_from_prior_20d_high",
+      "distance_from_prior_20d_low",
+      "gap_fill_pct",
+      "max_drawdown_10d",
+      "max_drawdown_20d",
+      "open_to_close_return",
+      "own_sector_rel_21d",
+      "realized_vol_10d",
+      "realized_vol_20d",
+      "realized_vol_5d",
+      "relative_return_10d",
+      "relative_return_1d",
+      "relative_return_3d",
+      "relative_return_5d",
+      "relative_volume_20d",
+      "relative_volume_50d",
+      "return_10d",
+      "return_1d",
+      "return_3d",
+      "return_5d",
+      "runup_10d_before_signal",
+      "runup_1d_before_signal",
+      "runup_3d_before_signal",
+      "up_day_volume_ratio_10d",
+      "up_day_volume_ratio_20d",
+      "volume_zscore_10d",
+      "volume_zscore_20d"
+    ],
+    "stage2_ranker": [
+      "close_to_ema_21_pct",
+      "close_to_ema_8_pct",
+      "close_to_sma_20_pct",
+      "close_to_sma_50_pct",
+      "distance_from_prior_10d_high",
+      "distance_from_prior_10d_low",
+      "distance_from_prior_20d_high",
+      "distance_from_prior_20d_low",
+      "gap_fill_pct",
+      "max_drawdown_10d",
+      "max_drawdown_20d",
+      "open_to_close_return",
+      "own_sector_rel_21d",
+      "realized_vol_10d",
+      "realized_vol_20d",
+      "realized_vol_5d",
+      "relative_return_10d",
+      "relative_return_1d",
+      "relative_return_3d",
+      "relative_return_5d",
+      "relative_volume_20d",
+      "relative_volume_50d",
+      "return_10d",
+      "return_1d",
+      "return_3d",
+      "return_5d",
+      "runup_10d_before_signal",
+      "runup_1d_before_signal",
+      "runup_3d_before_signal",
+      "up_day_volume_ratio_10d",
+      "up_day_volume_ratio_20d",
+      "volume_zscore_10d",
+      "volume_zscore_20d"
+    ]
+  },
+  "metadata_path": "metadata.json",
+  "model_interpretation": {
+    "stage1_classifier_coefficients": {},
+    "stage2_ranker_feature_importance": {}
+  },
+  "run": {
+    "git_commit": "3b0745c143d45150e3878f3a1543b615e5f2f5e3",
+    "git_worktree_dirty": false,
+    "run_id": "20260611T062002025358Z"
+  }
+}
