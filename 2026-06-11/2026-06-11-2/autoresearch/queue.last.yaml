@@ -1,0 +1,16 @@
+batch:
+  - parent: eece142b
+    hypothesis: "If the gate response is smooth, 0.21 should land between baseline (0.25) and the best run (0.18) in both primary and dispersion"
+    prediction: "primary between +0 and +0.0009 vs baseline; stab_std between 0.011 and 0.018"
+    changes:
+      classifier.gate_threshold: 0.21
+  - parent: "0796a230"
+    hypothesis: "Gate loosening (pool depth) and feature subsampling (tree decorrelation) are independent mechanisms, unlike the failed leaves combo which competed for the same capacity axis"
+    prediction: "primary above both single-knob runs (>0.0032)"
+    changes:
+      ranker.feature_fraction: 0.8
+  - parent: eece142b
+    hypothesis: "Larger leaf minimum (20 -> 60) suppresses splits fit to a handful of trades, improving out-of-fold generalization"
+    prediction: "primary up slightly; stability_std down"
+    changes:
+      ranker.min_data_in_leaf: 60
