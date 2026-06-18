@@ -1,0 +1,16 @@
+batch:
+  - parent: baseline
+    hypothesis: "A stricter gate (0.21 -> 0.30) keeps only higher-probability candidates, so survivors should be higher quality on both win rate and realized return — directly targeting the return guardrail that is only within_noise at baseline"
+    prediction: "hit_rate_lift up vs baseline; return_guard improves toward significance; survivor count down"
+    changes:
+      classifier.gate_threshold: 0.30
+  - parent: baseline
+    hypothesis: "A looser gate (0.21 -> 0.15) admits marginal candidates closer to the unfiltered pool, mapping the threshold gradient in the opposite direction"
+    prediction: "hit_rate_lift down vs baseline; return_guard flat-to-down; confirms direction of the threshold lever"
+    changes:
+      classifier.gate_threshold: 0.15
+  - parent: baseline
+    hypothesis: "Stronger L2 regularization on the logistic gate (c_value 1.0 -> 0.5, an untouched dimension) yields better-calibrated probabilities and more robust survivor selection"
+    prediction: "hit_rate_lift up modestly; return_guard up; calibration (Brier/log loss) improves"
+    changes:
+      classifier.c_value: 0.5
