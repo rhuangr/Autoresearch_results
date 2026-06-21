@@ -1,0 +1,4 @@
+/Users/richard/Desktop/pp/finance/StockWatch/utils/calculations.py:101: RuntimeWarning: divide by zero encountered in divide
+  compacted_values / trailing_average_volume,
+/Users/richard/Desktop/pp/finance/StockWatch/utils/calculations.py:101: RuntimeWarning: invalid value encountered in divide
+  compacted_values / trailing_average_volume,

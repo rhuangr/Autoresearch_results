@@ -1,0 +1,16 @@
+batch:
+  - parent: e718e853
+    hypothesis: "learning_rate 0.03 was neutral on the full set and is untested on the lean ranker; a gentle slowdown to 0.04 may let the cleaner lean features fit slightly more smoothly without the under-fit seen at 0.03"
+    prediction: "ranker top-k net return up or flat vs the lean base (-0.00052)"
+    changes:
+      ranker.learning_rate: 0.04
+  - parent: e718e853
+    hypothesis: "ema_windows [8,21] is the untouched trend dimension; a fast 5-bar EMA adds a quicker trend slope the lean ranker lacks, distinct from the cross-sectional carriers that regressed earlier"
+    prediction: "ranker top-k net return up or flat"
+    changes:
+      model_features.ranker.ema_windows: [5, 8, 21]
+  - parent: e718e853
+    hypothesis: "Coarser relevance_bins [.5,.90] was the only non-regressing lever; pushing to a binary [.75] split focuses NDCG entirely on the truly top-quartile relative-return names the basket actually trades"
+    prediction: "ranker top-k net return up or flat vs the lean base"
+    changes:
+      ranker.relevance_bins: [-.inf, 0.75, .inf]
