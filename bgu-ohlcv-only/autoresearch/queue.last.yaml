@@ -1,0 +1,8 @@
+batch:
+  - parent: baseline
+    hypothesis: "Direct paired significance test of the champion's full cumulative config against the baseline anchor: rvol[20] + cs_volatility[10] + cs_return pruned to [5,10] (the 71d690db stack) lifts allocator top-k from ~15.7 to ~26.9bps"
+    prediction: "allocator top-k ~26.9bps; this run's verdict_allocator is the champion-vs-baseline paired test (clears significance if the cumulative +11bps beats the day-level noise band)"
+    changes:
+      model_features.classifier.relative_volume_windows: [20]
+      model_features.classifier.cs_volatility_windows: [10]
+      model_features.classifier.cs_return_windows: [5, 10]

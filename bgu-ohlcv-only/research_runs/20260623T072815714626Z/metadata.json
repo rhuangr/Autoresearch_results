@@ -1,0 +1,360 @@
+{
+  "artifact_schema_version": 5,
+  "data": {
+    "candidate_ticker_count": 4136,
+    "candidate_ticker_universe_sha256": "e3a3fc76c16630c7700322e6e770d2a564ed2166f0bf4f0fa535f8eb2ca06a48",
+    "eligible_row_count": 10672,
+    "labeled_row_count": 10672,
+    "panel_row_count": 10402040,
+    "positive_label_rate": 0.45745877061469264,
+    "positive_label_rows": 4882,
+    "price_end_date": "2024-12-31T00:00:00",
+    "price_start_date": "2014-10-13T00:00:00"
+  },
+  "debug_metadata_path": "debug_metadata.json",
+  "evaluation": {
+    "aggregate_metrics": {
+      "brier_score": 0.25092105265594605,
+      "gate_survival_rate": 0.5490579887448006,
+      "log_loss": 0.6991274923456943,
+      "passed_trades_avg_return": 0.0017288831595238465,
+      "passed_trades_hit_rate": 0.5026495650706402,
+      "passed_trades_recall": 0.5786555556903272,
+      "roc_auc": 0.5416227542405742,
+      "total_surviving_test_rows": 4488,
+      "total_test_rows": 8174
+    },
+    "baseline_comparisons": {
+      "stage2_ranker_vs_equal_weight_signals": {
+        "baseline_strategy": "equal_weight_signals",
+        "hit_rate_delta": 0.01038218834278537,
+        "mean_net_return_per_trade_delta": 0.0012180935953819342,
+        "primary_strategy": "stage2_ranker",
+        "total_trade_count_delta": -5418
+      },
+      "stage2_ranker_vs_stage1_probability": {
+        "baseline_strategy": "stage1_probability",
+        "hit_rate_delta": 0.01346619886205852,
+        "mean_daily_ndcg_for_top_3_delta": 0.0211707782133419,
+        "mean_daily_ndcg_for_top_6_delta": 0.013060464422533724,
+        "mean_daily_ndcg_for_top_9_delta": 0.005272993084212474,
+        "mean_daily_net_return_for_top_3_delta": 0.0009421272869882585,
+        "mean_daily_net_return_for_top_6_delta": 0.0011362028260690704,
+        "mean_daily_net_return_for_top_9_delta": 0.0012560582346139498,
+        "mean_daily_precision_for_top_3_delta": 0.02337310674239501,
+        "mean_daily_precision_for_top_6_delta": 0.0334595766256211,
+        "mean_daily_precision_for_top_9_delta": 0.03409425626252044,
+        "mean_net_return_per_trade_delta": 0.0006412984301401084,
+        "primary_strategy": "stage2_ranker",
+        "total_trade_count_delta": -1335
+      }
+    },
+    "completed_split_count": 17,
+    "skipped_split_count": 0,
+    "split_stability": {
+      "stage1_classifier_gate": {
+        "brier_score": {
+          "completed_split_count": 17,
+          "max": 0.2615538300564409,
+          "mean": 0.25092105265594605,
+          "min": 0.24462452752056968,
+          "std": 0.004618142961734487
+        },
+        "gate_survival_rate": {
+          "completed_split_count": 17,
+          "max": 0.7932692307692307,
+          "mean": 0.5504401851250538,
+          "min": 0.2081447963800905,
+          "std": 0.1571070434029517
+        },
+        "log_loss": {
+          "completed_split_count": 17,
+          "max": 0.7170735287326987,
+          "mean": 0.6991274923456943,
+          "min": 0.6820122589398113,
+          "std": 0.011702732093419946
+        },
+        "passed_trades_avg_return": {
+          "completed_split_count": 17,
+          "max": 0.025201918243047895,
+          "mean": 0.0017288831595238465,
+          "min": -0.0036544762526501224,
+          "std": 0.006393396832982018
+        },
+        "passed_trades_hit_rate": {
+          "completed_split_count": 17,
+          "max": 0.6262626262626263,
+          "mean": 0.5026495650706402,
+          "min": 0.3619047619047619,
+          "std": 0.06922174879893991
+        },
+        "passed_trades_recall": {
+          "completed_split_count": 17,
+          "max": 0.84,
+          "mean": 0.5786555556903272,
+          "min": 0.21333333333333335,
+          "std": 0.16998207840126348
+        },
+        "roc_auc": {
+          "completed_split_count": 17,
+          "max": 0.6111548613845503,
+          "mean": 0.5416227542405742,
+          "min": 0.48510824404111086,
+          "std": 0.035975420392361054
+        }
+      },
+      "strategy_metrics_by_strategy": {
+        "equal_weight_signals": {
+          "hit_rate": {
+            "completed_split_count": 17,
+            "max": 0.5492957746478874,
+            "mean": 0.4782163680230783,
+            "min": 0.38724373576309795,
+            "std": 0.047422969276225566
+          },
+          "mean_net_return_per_trade": {
+            "completed_split_count": 17,
+            "max": 0.013198917293151768,
+            "mean": 0.0006358311226612963,
+            "min": -0.0033955115612433313,
+            "std": 0.003777380399712402
+          }
+        },
+        "stage1_probability": {
+          "hit_rate": {
+            "completed_split_count": 17,
+            "max": 0.5573770491803278,
+            "mean": 0.47513235750380517,
+            "min": 0.3920704845814978,
+            "std": 0.04556487585366241
+          },
+          "ic_information_ratio": {
+            "completed_split_count": 17,
+            "max": 0.35191548210401735,
+            "mean": 0.08810406606606984,
+            "min": -0.15085680377401864,
+            "std": 0.12176915781129288
+          },
+          "mean_daily_ndcg_for_top_3": {
+            "completed_split_count": 17,
+            "max": 0.7530757210640158,
+            "mean": 0.7031815678308946,
+            "min": 0.6345188746251127,
+            "std": 0.03284185213251373
+          },
+          "mean_daily_net_return_for_top_3": {
+            "completed_split_count": 17,
+            "max": 0.021998853493025928,
+            "mean": 0.0011632555589438872,
+            "min": -0.003583130552074003,
+            "std": 0.005683114472328661
+          },
+          "mean_daily_precision_for_top_3": {
+            "completed_split_count": 17,
+            "max": 0.5599999999999999,
+            "mean": 0.4692156862745098,
+            "min": 0.3633333333333333,
+            "std": 0.04743459549393461
+          },
+          "mean_daily_spearman_ic": {
+            "completed_split_count": 17,
+            "max": 0.24226002097501798,
+            "mean": 0.059728869865942315,
+            "min": -0.09725687948480304,
+            "std": 0.08150102933094998
+          },
+          "mean_net_return_per_trade": {
+            "completed_split_count": 17,
+            "max": 0.0217219989257555,
+            "mean": 0.0012126262879031222,
+            "min": -0.0037717557621488483,
+            "std": 0.005508834718995025
+          },
+          "positive_ic_day_rate": {
+            "completed_split_count": 17,
+            "max": 0.6493506493506493,
+            "mean": 0.5383609041274692,
+            "min": 0.4268292682926829,
+            "std": 0.06389636322451654
+          }
+        },
+        "stage2_ranker": {
+          "hit_rate": {
+            "completed_split_count": 17,
+            "max": 0.6333333333333333,
+            "mean": 0.4885985563658637,
+            "min": 0.3902439024390244,
+            "std": 0.0630633183089606
+          },
+          "ic_information_ratio": {
+            "completed_split_count": 17,
+            "max": 0.3241650401581793,
+            "mean": 0.017898364613173366,
+            "min": -0.213783875982282,
+            "std": 0.13173131798785287
+          },
+          "mean_daily_ndcg_for_top_3": {
+            "completed_split_count": 17,
+            "max": 0.8048004510481174,
+            "mean": 0.7243523460442365,
+            "min": 0.6520072887251671,
+            "std": 0.043044840583537414
+          },
+          "mean_daily_net_return_for_top_3": {
+            "completed_split_count": 17,
+            "max": 0.036311632902782,
+            "mean": 0.0021053828459321458,
+            "min": -0.002857595258640877,
+            "std": 0.008955267323762322
+          },
+          "mean_daily_precision_for_top_3": {
+            "completed_split_count": 17,
+            "max": 0.6601731601731602,
+            "mean": 0.49258879301690484,
+            "min": 0.3842105263157894,
+            "std": 0.06725051877457844
+          },
+          "mean_daily_spearman_ic": {
+            "completed_split_count": 17,
+            "max": 0.2381727193801497,
+            "mean": 0.013358297755866902,
+            "min": -0.14529213476581895,
+            "std": 0.0979974944212193
+          },
+          "mean_net_return_per_trade": {
+            "completed_split_count": 17,
+            "max": 0.032380973880901595,
+            "mean": 0.0018539247180432306,
+            "min": -0.003932228228878766,
+            "std": 0.008063556812006538
+          },
+          "positive_ic_day_rate": {
+            "completed_split_count": 17,
+            "max": 0.6222222222222222,
+            "mean": 0.5062214749086758,
+            "min": 0.4166666666666667,
+            "std": 0.06467885396432302
+          }
+        }
+      }
+    },
+    "stage_evidence": {
+      "stage1_classifier_gate": {
+        "base_positive_label_rate": 0.45745877061469264,
+        "brier_score": 0.25092105265594605,
+        "gate_survival_rate": 0.5490579887448006,
+        "log_loss": 0.6991274923456943,
+        "passed_trades_avg_return": 0.0017288831595238465,
+        "passed_trades_hit_rate": 0.5026495650706402,
+        "passed_trades_hit_rate_lift": 0.045190794455947536,
+        "passed_trades_recall": 0.5786555556903272,
+        "roc_auc": 0.5416227542405742
+      },
+      "stage2_ranker_allocator": {
+        "hit_rate": 0.4885985563658637,
+        "ic_information_ratio": 0.017898364613173366,
+        "mean_daily_net_return_for_top_k": 0.0021053828459321458,
+        "mean_daily_precision_for_top_k": 0.49258879301690484,
+        "mean_daily_spearman_ic": 0.013358297755866902,
+        "mean_net_return_per_trade": 0.0018539247180432306,
+        "positive_ic_day_rate": 0.5062214749086758
+      }
+    },
+    "strategies": {
+      "equal_weight_signals": {
+        "completed_split_count": 17,
+        "hit_rate": 0.4782163680230783,
+        "mean_net_return_per_trade": 0.0006358311226612963,
+        "total_trade_count": 8174
+      },
+      "stage1_probability": {
+        "completed_split_count": 17,
+        "hit_rate": 0.47513235750380517,
+        "ic_information_ratio": 0.08810406606606984,
+        "mean_daily_ndcg_for_top_3": 0.7031815678308946,
+        "mean_daily_ndcg_for_top_6": 0.7744264576728471,
+        "mean_daily_ndcg_for_top_9": 0.7979316279524725,
+        "mean_daily_net_return_for_top_3": 0.0011632555589438872,
+        "mean_daily_net_return_for_top_6": 0.0009730951236716671,
+        "mean_daily_net_return_for_top_9": 0.0009204263549104412,
+        "mean_daily_precision_for_top_3": 0.4692156862745098,
+        "mean_daily_precision_for_top_6": 0.46035294117647063,
+        "mean_daily_precision_for_top_9": 0.4600774976657329,
+        "mean_daily_spearman_ic": 0.059728869865942315,
+        "mean_net_return_per_trade": 0.0012126262879031222,
+        "positive_ic_day_rate": 0.5383609041274692,
+        "std_daily_net_return_for_top_3": 0.02276248521105864,
+        "std_daily_net_return_for_top_6": 0.022165204187828944,
+        "std_daily_net_return_for_top_9": 0.022130801762478856,
+        "std_daily_spearman_ic": 0.6655526646252169,
+        "top_k": 3.0,
+        "total_trade_count": 4091
+      },
+      "stage2_ranker": {
+        "completed_split_count": 17,
+        "hit_rate": 0.4885985563658637,
+        "ic_information_ratio": 0.017898364613173366,
+        "mean_daily_ndcg_for_top_3": 0.7243523460442365,
+        "mean_daily_ndcg_for_top_6": 0.7874869220953808,
+        "mean_daily_ndcg_for_top_9": 0.803204621036685,
+        "mean_daily_net_return_for_top_3": 0.0021053828459321458,
+        "mean_daily_net_return_for_top_6": 0.0021092979497407374,
+        "mean_daily_net_return_for_top_9": 0.002176484589524391,
+        "mean_daily_precision_for_top_3": 0.49258879301690484,
+        "mean_daily_precision_for_top_6": 0.49381251780209173,
+        "mean_daily_precision_for_top_9": 0.49417175392825335,
+        "mean_daily_spearman_ic": 0.013358297755866902,
+        "mean_net_return_per_trade": 0.0018539247180432306,
+        "positive_ic_day_rate": 0.5062214749086758,
+        "std_daily_net_return_for_top_3": 0.0224145985518973,
+        "std_daily_net_return_for_top_6": 0.02185031737785791,
+        "std_daily_net_return_for_top_9": 0.021774844732821683,
+        "std_daily_spearman_ic": 0.7490024610713535,
+        "top_k": 3.0,
+        "total_trade_count": 2756
+      }
+    }
+  },
+  "models": {
+    "files": {
+      "stage1_classifier": null,
+      "stage2_ranker": null
+    },
+    "parameters": {
+      "stage1_classifier": {},
+      "stage2_ranker": {}
+    }
+  },
+  "run": {
+    "execution_assumptions": {
+      "benchmark_relative": true,
+      "classifier_positive_label": "overnight (close -> next open) return exceeded the benchmark",
+      "classifier_target": "outperforms_benchmark_overnight",
+      "entry_rule": "decision_bar_close",
+      "exit_rule": "next_session_open",
+      "label_horizon_bars": 1,
+      "outcome_return_column": "overnight_relative_return",
+      "outcome_return_definition": "overnight close->next-open return minus benchmark return (costed)",
+      "ranker_target": "overnight_relative_return",
+      "require_complete_label_horizon": true,
+      "slippage_pct": 0.0005,
+      "target_mode": "overnight",
+      "transaction_cost_pct": 0.0
+    },
+    "git_commit": "e6d13300da50d4c81089256794b7d056b72a47ca",
+    "git_worktree_dirty": false,
+    "parameters": {
+      "classifier_c_value": 1.0,
+      "classifier_class_weight": null,
+      "embargo_bars": 15,
+      "gate_threshold": 0.47,
+      "limit_tickers": null,
+      "lookback_years": 10,
+      "test_bars": 100,
+      "top_k": 3,
+      "train_bars": 405
+    },
+    "run_id": "20260623T072815714626Z",
+    "trained_at": "2026-06-23T07:31:18.660071+00:00"
+  }
+}
