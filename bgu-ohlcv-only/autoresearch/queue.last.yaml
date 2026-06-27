@@ -1,8 +1,16 @@
 batch:
-  - parent: baseline
-    hypothesis: "Direct paired significance test of the champion's full cumulative config against the baseline anchor: rvol[20] + cs_volatility[10] + cs_return pruned to [5,10] (the 71d690db stack) lifts allocator top-k from ~15.7 to ~26.9bps"
-    prediction: "allocator top-k ~26.9bps; this run's verdict_allocator is the champion-vs-baseline paired test (clears significance if the cumulative +11bps beats the day-level noise band)"
+  - parent: f9161698
+    hypothesis: "Sector context drove the synergy and 350 trees can exploit more of it; a richer three-window sector ladder [10,21,42] adds a slow sector regime view on top of the winning [10,21]"
+    prediction: "ranker top-k net return up vs f9161698"
     changes:
-      model_features.classifier.relative_volume_windows: [20]
-      model_features.classifier.cs_volatility_windows: [10]
-      model_features.classifier.cs_return_windows: [5, 10]
+      model_features.ranker.sector_return_windows: [10, 21, 42]
+  - parent: f9161698
+    hypothesis: "The richer carrier set may benefit from slightly more leaf regularization; num_leaves 28 sits just below 31 where 36 overfit and 23 was too shallow"
+    prediction: "ranker top-k net return at or above f9161698"
+    changes:
+      ranker.num_leaves: 28
+  - parent: f9161698
+    hypothesis: "Completing the leaf-support map at the optimum: min_data_in_leaf 25 (20 best, 15 and 30 regressed) tests the upper shoulder of the leaf-support peak under the richer carriers"
+    prediction: "ranker top-k net return at or near f9161698"
+    changes:
+      ranker.min_data_in_leaf: 25
