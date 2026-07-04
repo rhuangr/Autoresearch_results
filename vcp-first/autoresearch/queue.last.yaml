@@ -1,0 +1,16 @@
+batch:
+  - parent: baseline
+    hypothesis: "Isolate the concurrent-pair effect: cs_vol[10]->[10,20] off baseline should beat the significant single cs_vol[20] (79080a37, +0.0186) if concurrency itself adds value"
+    prediction: "gate hit-rate lift above the single-cs_vol20 anchor, return guard non-regressing"
+    changes:
+      model_features.classifier.cs_volatility_windows: [10, 20]
+  - parent: baseline
+    hypothesis: "Concurrent pair anchored on the significant single-18: cs_vol[10]->[10,18] off baseline, cleanest standalone concurrent champion"
+    prediction: "gate hit-rate lift above the single-cs_vol anchors, return guard non-regressing"
+    changes:
+      model_features.classifier.cs_volatility_windows: [10, 18]
+  - parent: 8d415c57
+    hypothesis: "Cross-check sector robustness on the clean cs_vol[10,18]+rvol50 line: if the sector[10,21] add is real (not the 53fc5fe7 lucky draw) it repeats here"
+    prediction: "gate hit-rate lift up vs parent repeats the earlier +0.016; a collapse marks sector as noise"
+    changes:
+      model_features.classifier.sector_return_windows: [10, 21]
