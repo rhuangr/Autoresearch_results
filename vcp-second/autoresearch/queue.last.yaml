@@ -1,0 +1,16 @@
+batch:
+  - parent: e25e10e2
+    hypothesis: "Long-horizon cross-sectional volatility is a regime-dispersion construct distinct from long-horizon return (which was corrosive); a spread [20,60,120] may give the gate slow-moving risk context the clumped [10,20,30] lacks"
+    prediction: "gate return lift moves vs e25e10e2; direction uncertain — first test of long cs_volatility"
+    changes:
+      model_features.classifier.cs_volatility_windows: [20, 60, 120]
+  - parent: e25e10e2
+    hypothesis: "Clean isolation: keep the champion cs_volatility [10,20,30] and append a single long 90-bar dispersion window [10,20,30,90] to measure its marginal contribution without disturbing the proven short rungs"
+    prediction: "gate return lift up vs e25e10e2 if long dispersion is additive; guard holds"
+    changes:
+      model_features.classifier.cs_volatility_windows: [10, 20, 30, 90]
+  - parent: e25e10e2
+    hypothesis: "Honoring the separation idea within the survivable <=80 range: a widely-spaced cs_return ladder [5,20,80] tests whether spread (not just length) helps vs the clumped [5,10,20,40]"
+    prediction: "gate return lift moves vs e25e10e2; guard holds"
+    changes:
+      model_features.classifier.cs_return_windows: [5, 20, 80]
