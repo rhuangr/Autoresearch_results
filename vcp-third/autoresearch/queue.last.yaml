@@ -1,0 +1,16 @@
+batch:
+  - parent: 40c519c5
+    hypothesis: "0.42 (c_value 1.0) was within_noise and 0.44 significant; the fine 0.43 midpoint may be the cleanest (lowest-variance) significant point on the regularized band."
+    prediction: "gate return lift ~= parent; verdict significant_improvement; guard significant."
+    changes:
+      classifier.gate_threshold: 0.43
+  - parent: 62f1bd60
+    hypothesis: "0.46 has the highest raw lift (0.0347) but is within_noise at c_value 1.0; the same regularization mechanism that converted 0.44 may convert 0.46 with a touch more regularization (c_value 0.85)."
+    prediction: "gate return lift > the 0.44 champion; verdict significant_improvement; guard significant."
+    changes:
+      classifier.c_value: 0.85
+  - parent: 7cb168b9
+    hypothesis: "0.45 (raw lift 0.0344, within_noise at c_value 1.0) may clear significance with slightly stronger regularization (c_value 0.85), yielding a higher significant champion than 0.44."
+    prediction: "gate return lift > the 0.44 champion; verdict significant_improvement; guard significant."
+    changes:
+      classifier.c_value: 0.85
