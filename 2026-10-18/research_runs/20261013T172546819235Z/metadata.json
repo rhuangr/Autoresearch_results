@@ -1,0 +1,193 @@
+{
+  "artifact_schema_version": 8,
+  "debug_metadata_path": "debug_metadata.json",
+  "run": {
+    "run_id": "f2b1d82f-c818-5203-b578-c4a88d272112",
+    "trained_at": "2026-10-13T17:27:45.594021+00:00",
+    "git_commit": "3cd7ec08737c2532877d73c2595bec9373496023",
+    "git_worktree_dirty": false,
+    "parameters": {
+      "limit_tickers": null,
+      "lookback_years": 10,
+      "train_bars": 405,
+      "test_bars": 100,
+      "embargo_bars": 15,
+      "gate_threshold": 0.25,
+      "classifier_model_type": "lightgbm",
+      "classifier_c_value": 1.0,
+      "top_k": 3,
+      "holdout_years": 0.0,
+      "include_holdout": false,
+      "full_baselines": false,
+      "save": true,
+      "store_full_model": false,
+      "skip_ranker": true,
+      "persist_trade_detail": false
+    },
+    "execution_assumptions": {
+      "target_mode": "triple_barrier",
+      "classifier_target": "trade_success",
+      "ranker_target": "realized_trade_return",
+      "outcome_return_column": "realized_trade_return",
+      "label_horizon_bars": 21,
+      "slippage_pct": 0.0005,
+      "transaction_cost_pct": 0.0,
+      "require_complete_label_horizon": true,
+      "entry_rule": "next_session_open",
+      "max_holding_bars": 21,
+      "same_bar_target_and_stop_rule": "stop_loss_first",
+      "secondary_rank_metric_target": "fixed_horizon_return",
+      "stop_mode": "atr",
+      "success_rule": "target_hit",
+      "outcome_return_definition": "realized trade return entry-to-exit (costed)",
+      "profit_target_atr_multiple": 2.5,
+      "stop_loss_atr_multiple": 1.25,
+      "classifier_positive_label": "trade reached +2.5 ATR profit target before 1.25 ATR stop or timeout"
+    },
+    "feature_cache": {
+      "session": "feature_cache",
+      "loaded_groups": 0,
+      "computed_groups": 0,
+      "rebuilt_groups": 0,
+      "loaded_tables": 55,
+      "computed_tables": 0,
+      "rebuilt_tables": 0,
+      "load_seconds": 3.8357614984270185,
+      "calculation_seconds": 0.0
+    },
+    "configuration_path": "/Users/richard/Desktop/pp/finance/StockWatch-codex/.research/autoresearch/configurations/f2b1d82f-c818-5203-b578-c4a88d272112.yaml"
+  },
+  "data": {
+    "price_start_date": "2013-12-12T00:00:00",
+    "price_end_date": "2024-12-31T00:00:00",
+    "candidate_ticker_count": 4244,
+    "candidate_ticker_universe_sha256": "bd59e15d713785136f73503571f186a0116409fa3369a6dc0def08d0d208949f",
+    "panel_row_count": 10673660,
+    "labeled_row_count": 5006907,
+    "eligible_row_count": 5006907,
+    "positive_label_rows": 1537665,
+    "positive_label_rate": 0.30710875995899267,
+    "research_start_date": "2015-01-03"
+  },
+  "models": {
+    "files": {
+      "stage1_classifier": null,
+      "stage2_ranker": null
+    },
+    "parameters": {
+      "stage1_classifier": {
+        "model_type": "lightgbm",
+        "c_value": 1.0,
+        "n_estimators": 50,
+        "learning_rate": 0.05,
+        "num_leaves": 15,
+        "min_data_in_leaf": 20,
+        "max_depth": -1,
+        "feature_fraction": 1.0
+      },
+      "stage2_ranker": {}
+    },
+    "fitted_parameters": {
+      "stage1_classifier": {},
+      "stage2_ranker": {}
+    }
+  },
+  "evaluation": {
+    "completed_split_count": 20,
+    "skipped_split_count": 0,
+    "aggregate_metrics": {
+      "brier_score": 0.22128294702628493,
+      "log_loss": 0.6357273488071908,
+      "roc_auc": 0.5010756097875358,
+      "passed_trades_hit_rate": 0.3134750463526562,
+      "passed_trades_avg_return": 0.0015674854034953335,
+      "passed_trades_recall": 0.8359831110612459,
+      "total_test_rows": 4049595,
+      "total_surviving_test_rows": 3397912,
+      "gate_survival_rate": 0.8390745247364243
+    },
+    "strategies": {},
+    "stage_evidence": {
+      "stage1_classifier_gate": {
+        "roc_auc": 0.5010756097875358,
+        "brier_score": 0.22128294702628493,
+        "log_loss": 0.6357273488071908,
+        "base_positive_label_rate": 0.31234791118413985,
+        "passed_trades_hit_rate": 0.31592227837084047,
+        "passed_trades_hit_rate_lift": 0.0035743671867005935,
+        "gate_survival_rate": 0.8390745247364243,
+        "passed_trades_recall": 0.8359831110612459,
+        "base_mean_return": 0.0018359921704424178,
+        "passed_trades_avg_return": 0.001959795175084691,
+        "passed_trades_return_lift": 0.00012380300464227267
+      },
+      "stage2_ranker_allocator": {
+        "mean_net_return_per_trade": null,
+        "hit_rate": null,
+        "mean_daily_spearman_ic": null,
+        "ic_information_ratio": null,
+        "positive_ic_day_rate": null,
+        "mean_daily_net_return_for_top_k": null,
+        "mean_daily_precision_for_top_k": null
+      }
+    },
+    "baseline_comparisons": {
+      "stage2_ranker_vs_stage1_probability": {},
+      "stage2_ranker_vs_equal_weight_signals": {}
+    },
+    "split_stability": {
+      "stage1_classifier_gate": {
+        "roc_auc": {
+          "mean": 0.5010756097875358,
+          "std": 0.03043335216776221,
+          "min": 0.4606785038244814,
+          "max": 0.573441592920147,
+          "completed_split_count": 20
+        },
+        "brier_score": {
+          "mean": 0.22128294702628493,
+          "std": 0.017815088302503206,
+          "min": 0.19216677671713606,
+          "max": 0.2598193042888719,
+          "completed_split_count": 20
+        },
+        "log_loss": {
+          "mean": 0.6357273488071908,
+          "std": 0.03838903619584027,
+          "min": 0.5736772679390485,
+          "max": 0.7205962935252568,
+          "completed_split_count": 20
+        },
+        "gate_survival_rate": {
+          "mean": 0.8359950777801524,
+          "std": 0.1599387744575678,
+          "min": 0.43541642079769305,
+          "max": 0.9939987443830917,
+          "completed_split_count": 20
+        },
+        "passed_trades_hit_rate": {
+          "mean": 0.3134750463526562,
+          "std": 0.04721924148600249,
+          "min": 0.2200658012556476,
+          "max": 0.38800314626722754,
+          "completed_split_count": 20
+        },
+        "passed_trades_avg_return": {
+          "mean": 0.0015674854034953335,
+          "std": 0.011582721868399424,
+          "min": -0.01788832018110394,
+          "max": 0.04081438142799138,
+          "completed_split_count": 20
+        },
+        "passed_trades_recall": {
+          "mean": 0.8359831110612459,
+          "std": 0.15550227494931582,
+          "min": 0.45655583437892094,
+          "max": 0.9951995881034588,
+          "completed_split_count": 20
+        }
+      },
+      "strategy_metrics_by_strategy": {}
+    }
+  }
+}

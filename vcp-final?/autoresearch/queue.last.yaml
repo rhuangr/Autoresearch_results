@@ -1,0 +1,16 @@
+batch:
+  - parent: 18b23bbc
+    hypothesis: "The 140/180 double anchor lifted the point estimate (within_noise). A tighter second anchor at 160 may give a cleaner annual-RS level+slope and firm the lead toward significance."
+    prediction: "return_lift up vs 18b23bbc, verdict firms toward significant."
+    changes:
+      model_features.classifier.cs_return_windows: [5, 10, 20, 40, 60, 140, 160]
+  - parent: 18b23bbc
+    hypothesis: "Widen the second anchor to 200 (250 failed alone, but as a second anchor beside 140 it may add annual-RS slope without over-reaching): tests the far end of the double-anchor structure."
+    prediction: "return_lift up vs 18b23bbc if the 140/200 slope adds signal."
+    changes:
+      model_features.classifier.cs_return_windows: [5, 10, 20, 40, 60, 140, 200]
+  - parent: f9cf9b7e
+    hypothesis: "Stack the two mild positive leads: the 140/180 double anchor (point estimate 0.0142) with the leaner cs_volatility[10,20] (guard was significant). Two same-direction nudges may add up to a detectable, significant improvement."
+    prediction: "return_lift up vs f9cf9b7e, verdict firms to significant_improvement."
+    changes:
+      model_features.classifier.cs_volatility_windows: [10, 20]

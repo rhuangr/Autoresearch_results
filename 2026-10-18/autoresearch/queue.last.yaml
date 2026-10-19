@@ -1,0 +1,29 @@
+batch:
+- changes:
+    model_features.classifier.sector_return_windows: []
+  hypothesis: Sector return context adds unstable common-factor information once
+    stock-specific shock and overnight movement features describe the setup
+  note: Remove only the sector-return input from the overnight-energy candidate;
+    retain all stock trend, volume, volatility and compression features
+  override_reason: ''
+  parent: 54f5e12a-ab0d-462d-b1c9-0d4e10f66689
+- changes:
+    model_features.classifier.cs_ema_windows: [50, 100]
+  hypothesis: Fast cross-sectional EMA context is redundant with recent shock 
+    balance while medium and long trend context remain useful
+  note: Remove only the twenty-one-session cross-sectional EMA input while 
+    retaining fifty- and hundred-session cross-sectional context and both raw 
+    trend inputs
+  override_reason: ''
+  parent: 54f5e12a-ab0d-462d-b1c9-0d4e10f66689
+- changes:
+    model_features.classifier.cs_ema_windows: [50, 100]
+    model_features.classifier.sector_return_windows: []
+  hypothesis: Removing both short relative-trend context and sector return 
+    context yields a cleaner representation of shock-conditioned compressed 
+    setups
+  note: Joint ablation paired with both single removals in this batch tests the 
+    proposed redundancy without changing model capacity, gate or evaluation 
+    dates
+  override_reason: ''
+  parent: 54f5e12a-ab0d-462d-b1c9-0d4e10f66689

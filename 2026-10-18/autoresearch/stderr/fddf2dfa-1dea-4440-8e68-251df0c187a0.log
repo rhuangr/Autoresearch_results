@@ -1,0 +1,24 @@
+-> FAILURE: Artifact serialization failed after 0.197 seconds: Saved configuration does not match the executed run configuration.
+Traceback (most recent call last):
+  File "/Users/richard/Desktop/pp/finance/StockWatch-codex/run_research.py", line 965, in <module>
+    main()
+    ~~~~^^
+  File "/Users/richard/Desktop/pp/finance/StockWatch-codex/run_research.py", line 931, in main
+    save_production_artifacts(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        classifier=classifier,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<19 lines>...
+        feature_cache_metrics=feature_cache_metrics,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/richard/Desktop/pp/finance/StockWatch-codex/run_research.py", line 731, in save_production_artifacts
+    run_context = build_research_run_context(
+        candidate_tickers=candidate_tickers,
+    ...<20 lines>...
+        configuration_path=os.environ.get(RESEARCH_CONFIG_ENVIRONMENT) if os.environ.get(RESEARCH_RUN_ID_ENVIRONMENT) else None,
+    )
+  File "/Users/richard/Desktop/pp/finance/StockWatch-codex/research/artifacts/report.py", line 180, in build_research_run_context
+    raise ValueError("Saved configuration does not match the executed run configuration.")
+ValueError: Saved configuration does not match the executed run configuration.
